@@ -93,7 +93,9 @@
     <div class="level2"><span class="xref">Priority_Queue.StablePriorityQueueNode</span></div>
     <div class="level3"><a class="xref" href="Fibula.Scheduling.BaseEvent.html">BaseEvent</a></div>
     <div class="level4"><span class="xref">Condition</span></div>
-      <div class="level5"><a class="xref" href="Fibula.Mechanics.Conditions.ExhaustionContidion.html">ExhaustionContidion</a></div>
+      <div class="level5"><a class="xref" href="Fibula.Mechanics.Conditions.DecayingCondition.html">DecayingCondition</a></div>
+      <div class="level5"><a class="xref" href="Fibula.Mechanics.Conditions.ExhaustionCondition.html">ExhaustionCondition</a></div>
+      <div class="level5"><a class="xref" href="Fibula.Mechanics.Conditions.InFightCondition.html">InFightCondition</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -108,6 +110,9 @@
     </div>
     <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Expedited">BaseEvent.Expedited</a>
+    </div>
+    <div>
+      <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Delayed">BaseEvent.Delayed</a>
     </div>
     <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Completed">BaseEvent.Completed</a>
@@ -128,6 +133,9 @@
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_HasExpeditionHandler">BaseEvent.HasExpeditionHandler</a>
     </div>
     <div>
+      <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_HasDelayHandler">BaseEvent.HasDelayHandler</a>
+    </div>
+    <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_ExcludeFromTelemetry">BaseEvent.ExcludeFromTelemetry</a>
     </div>
     <div>
@@ -138,6 +146,9 @@
     </div>
     <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Expedite">BaseEvent.Expedite()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Delay_System_TimeSpan_">BaseEvent.Delay(TimeSpan)</a>
     </div>
     <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Complete_System_Boolean_">BaseEvent.Complete(Boolean)</a>
@@ -186,19 +197,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition__ctor_Fibula_Common_Contracts_Enumerations_ConditionType_System_DateTimeOffset_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.%23ctor(Fibula.Common.Contracts.Enumerations.ConditionType%2CSystem.DateTimeOffset)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition__ctor_Fibula_Common_Contracts_Enumerations_ConditionType_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.%23ctor(Fibula.Common.Contracts.Enumerations.ConditionType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L31">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L32">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Conditions_Condition__ctor_" data-uid="Fibula.Mechanics.Conditions.Condition.#ctor*"></a>
-  <h4 id="Fibula_Mechanics_Conditions_Condition__ctor_Fibula_Common_Contracts_Enumerations_ConditionType_System_DateTimeOffset_" data-uid="Fibula.Mechanics.Conditions.Condition.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType,System.DateTimeOffset)">Condition(ConditionType, DateTimeOffset)</h4>
+  <h4 id="Fibula_Mechanics_Conditions_Condition__ctor_Fibula_Common_Contracts_Enumerations_ConditionType_" data-uid="Fibula.Mechanics.Conditions.Condition.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType)">Condition(ConditionType)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Fibula.Mechanics.Conditions.Condition.html">Condition</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Condition(ConditionType conditionType, DateTimeOffset endTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public Condition(ConditionType conditionType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,22 +227,16 @@
         <td><p>The type of exhaustion.</p>
 </td>
       </tr>
-      <tr>
-        <td><span class="xref">System.DateTimeOffset</span></td>
-        <td><span class="parametername">endTime</span></td>
-        <td><p>The date and time at which the condition is set to end.</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_CanBeCancelled.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.CanBeCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_CanBeCancelled.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.CanBeCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L50">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L52">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Conditions_Condition_CanBeCancelled_" data-uid="Fibula.Mechanics.Conditions.Condition.CanBeCancelled*"></a>
   <h4 id="Fibula_Mechanics_Conditions_Condition_CanBeCancelled" data-uid="Fibula.Mechanics.Conditions.Condition.CanBeCancelled">CanBeCancelled</h4>
@@ -261,19 +266,19 @@
   <div><a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_CanBeCancelled">BaseEvent.CanBeCancelled</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_EndTime.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.EndTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_EventType.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.EventType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L45">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L42">View Source</a>
   </span>
-  <a id="Fibula_Mechanics_Conditions_Condition_EndTime_" data-uid="Fibula.Mechanics.Conditions.Condition.EndTime*"></a>
-  <h4 id="Fibula_Mechanics_Conditions_Condition_EndTime" data-uid="Fibula.Mechanics.Conditions.Condition.EndTime">EndTime</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the end time for this condition.</p>
+  <a id="Fibula_Mechanics_Conditions_Condition_EventType_" data-uid="Fibula.Mechanics.Conditions.Condition.EventType*"></a>
+  <h4 id="Fibula_Mechanics_Conditions_Condition_EventType" data-uid="Fibula.Mechanics.Conditions.Condition.EventType">EventType</h4>
+  <div class="markdown level1 summary"><p>Gets a string representing this condition's type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTimeOffset EndTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override string EventType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -285,17 +290,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_EventType">BaseEvent.EventType</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_Type.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_Type.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L40">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L47">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Conditions_Condition_Type_" data-uid="Fibula.Mechanics.Conditions.Condition.Type*"></a>
   <h4 id="Fibula_Mechanics_Conditions_Condition_Type" data-uid="Fibula.Mechanics.Conditions.Condition.Type">Type</h4>
@@ -325,10 +332,94 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_Aggregate_Fibula_Common_Contracts_Abstractions_ICondition_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L56">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L81">View Source</a>
+  </span>
+  <a id="Fibula_Mechanics_Conditions_Condition_Aggregate_" data-uid="Fibula.Mechanics.Conditions.Condition.Aggregate*"></a>
+  <h4 id="Fibula_Mechanics_Conditions_Condition_Aggregate_Fibula_Common_Contracts_Abstractions_ICondition_" data-uid="Fibula.Mechanics.Conditions.Condition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)">Aggregate(ICondition)</h4>
+  <div class="markdown level1 summary"><p>Aggregates this condition's properties with another of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool Aggregate(ICondition conditionOfSameType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fibula.Common.Contracts.Abstractions.ICondition.html">ICondition</a></td>
+        <td><span class="parametername">conditionOfSameType</span></td>
+        <td><p>The condition to aggregate with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this condition's properties were changed as a result, and false if nothing changed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_Execute_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L87">View Source</a>
+  </span>
+  <a id="Fibula_Mechanics_Conditions_Condition_Execute_" data-uid="Fibula.Mechanics.Conditions.Condition.Execute*"></a>
+  <h4 id="Fibula_Mechanics_Conditions_Condition_Execute_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_" data-uid="Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)">Execute(IConditionContext)</h4>
+  <div class="markdown level1 summary"><p>Executes the condition's logic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void Execute(IConditionContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html">IConditionContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The execution context for this condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L58">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Conditions_Condition_Execute_" data-uid="Fibula.Mechanics.Conditions.Condition.Execute*"></a>
   <h4 id="Fibula_Mechanics_Conditions_Condition_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_" data-uid="Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)">Execute(IEventContext)</h4>
@@ -361,19 +452,19 @@
   <div><a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_">BaseEvent.Execute(IEventContext)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_Pulse_Fibula_Scheduling_Contracts_Abstractions_IEventContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_SendNotification_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Fibula_Mechanics_Contracts_Abstractions_INotification_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.SendNotification(Fibula.Mechanics.Contracts.Abstractions.IConditionContext%2CFibula.Mechanics.Contracts.Abstractions.INotification)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L84">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L94">View Source</a>
   </span>
-  <a id="Fibula_Mechanics_Conditions_Condition_Pulse_" data-uid="Fibula.Mechanics.Conditions.Condition.Pulse*"></a>
-  <h4 id="Fibula_Mechanics_Conditions_Condition_Pulse_Fibula_Scheduling_Contracts_Abstractions_IEventContext_" data-uid="Fibula.Mechanics.Conditions.Condition.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)">Pulse(IEventContext)</h4>
-  <div class="markdown level1 summary"><p>Executes the operation's logic.</p>
+  <a id="Fibula_Mechanics_Conditions_Condition_SendNotification_" data-uid="Fibula.Mechanics.Conditions.Condition.SendNotification*"></a>
+  <h4 id="Fibula_Mechanics_Conditions_Condition_SendNotification_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Fibula_Mechanics_Contracts_Abstractions_INotification_" data-uid="Fibula.Mechanics.Conditions.Condition.SendNotification(Fibula.Mechanics.Contracts.Abstractions.IConditionContext,Fibula.Mechanics.Contracts.Abstractions.INotification)">SendNotification(IConditionContext, INotification)</h4>
+  <div class="markdown level1 summary"><p>Sends a notification synchronously.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void Pulse(IEventContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void SendNotification(IConditionContext context, INotification notification)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -386,9 +477,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fibula.Scheduling.Contracts.Abstractions.IEventContext.html">IEventContext</a></td>
+        <td><a class="xref" href="Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html">IConditionContext</a></td>
         <td><span class="parametername">context</span></td>
-        <td><p>The execution context for this operation.</p>
+        <td><p>A reference to the condition context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fibula.Mechanics.Contracts.Abstractions.INotification.html">INotification</a></td>
+        <td><span class="parametername">notification</span></td>
+        <td><p>The notification to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition_SendNotificationAsync_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Fibula_Mechanics_Contracts_Abstractions_INotification_System_Nullable_System_TimeSpan__.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition.SendNotificationAsync(Fibula.Mechanics.Contracts.Abstractions.IConditionContext%2CFibula.Mechanics.Contracts.Abstractions.INotification%2CSystem.Nullable%7BSystem.TimeSpan%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L108">View Source</a>
+  </span>
+  <a id="Fibula_Mechanics_Conditions_Condition_SendNotificationAsync_" data-uid="Fibula.Mechanics.Conditions.Condition.SendNotificationAsync*"></a>
+  <h4 id="Fibula_Mechanics_Conditions_Condition_SendNotificationAsync_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Fibula_Mechanics_Contracts_Abstractions_INotification_System_Nullable_System_TimeSpan__" data-uid="Fibula.Mechanics.Conditions.Condition.SendNotificationAsync(Fibula.Mechanics.Contracts.Abstractions.IConditionContext,Fibula.Mechanics.Contracts.Abstractions.INotification,System.Nullable{System.TimeSpan})">SendNotificationAsync(IConditionContext, INotification, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sends a notification asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendNotificationAsync(IConditionContext context, INotification notification, TimeSpan? delayTime = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html">IConditionContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>A reference to the condition context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fibula.Mechanics.Contracts.Abstractions.INotification.html">INotification</a></td>
+        <td><span class="parametername">notification</span></td>
+        <td><p>The notification to send.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
+        <td><span class="parametername">delayTime</span></td>
+        <td><p>Optional. The time delay after which the notification should be sent. If left null, the notificaion is scheduled to be sent ASAP.</p>
 </td>
       </tr>
     </tbody>
@@ -421,10 +564,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Conditions_Condition.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Conditions.Condition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L24" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Conditions/Condition.cs/#L26" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

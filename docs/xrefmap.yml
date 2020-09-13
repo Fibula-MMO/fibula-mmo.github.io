@@ -524,25 +524,51 @@ references:
   isSpec: "True"
   fullName: Fibula.Common.Contracts.Abstractions.IApplicationContext.TelemetryClient
   nameWithType: IApplicationContext.TelemetryClient
+- uid: Fibula.Common.Contracts.Abstractions.ICloneableThing`1
+  name: ICloneableThing<TThing>
+  href: code/Fibula.Common.Contracts.Abstractions.ICloneableThing-1.html
+  commentId: T:Fibula.Common.Contracts.Abstractions.ICloneableThing`1
+  name.vb: ICloneableThing(Of TThing)
+  fullName: Fibula.Common.Contracts.Abstractions.ICloneableThing<TThing>
+  fullName.vb: Fibula.Common.Contracts.Abstractions.ICloneableThing(Of TThing)
+  nameWithType: ICloneableThing<TThing>
+  nameWithType.vb: ICloneableThing(Of TThing)
+- uid: Fibula.Common.Contracts.Abstractions.ICloneableThing`1.Clone
+  name: Clone()
+  href: code/Fibula.Common.Contracts.Abstractions.ICloneableThing-1.html#Fibula_Common_Contracts_Abstractions_ICloneableThing_1_Clone
+  commentId: M:Fibula.Common.Contracts.Abstractions.ICloneableThing`1.Clone
+  fullName: Fibula.Common.Contracts.Abstractions.ICloneableThing<TThing>.Clone()
+  fullName.vb: Fibula.Common.Contracts.Abstractions.ICloneableThing(Of TThing).Clone()
+  nameWithType: ICloneableThing<TThing>.Clone()
+  nameWithType.vb: ICloneableThing(Of TThing).Clone()
+- uid: Fibula.Common.Contracts.Abstractions.ICloneableThing`1.Clone*
+  name: Clone
+  href: code/Fibula.Common.Contracts.Abstractions.ICloneableThing-1.html#Fibula_Common_Contracts_Abstractions_ICloneableThing_1_Clone_
+  commentId: Overload:Fibula.Common.Contracts.Abstractions.ICloneableThing`1.Clone
+  isSpec: "True"
+  fullName: Fibula.Common.Contracts.Abstractions.ICloneableThing<TThing>.Clone
+  fullName.vb: Fibula.Common.Contracts.Abstractions.ICloneableThing(Of TThing).Clone
+  nameWithType: ICloneableThing<TThing>.Clone
+  nameWithType.vb: ICloneableThing(Of TThing).Clone
 - uid: Fibula.Common.Contracts.Abstractions.ICondition
   name: ICondition
   href: code/Fibula.Common.Contracts.Abstractions.ICondition.html
   commentId: T:Fibula.Common.Contracts.Abstractions.ICondition
   fullName: Fibula.Common.Contracts.Abstractions.ICondition
   nameWithType: ICondition
-- uid: Fibula.Common.Contracts.Abstractions.ICondition.EndTime
-  name: EndTime
-  href: code/Fibula.Common.Contracts.Abstractions.ICondition.html#Fibula_Common_Contracts_Abstractions_ICondition_EndTime
-  commentId: P:Fibula.Common.Contracts.Abstractions.ICondition.EndTime
-  fullName: Fibula.Common.Contracts.Abstractions.ICondition.EndTime
-  nameWithType: ICondition.EndTime
-- uid: Fibula.Common.Contracts.Abstractions.ICondition.EndTime*
-  name: EndTime
-  href: code/Fibula.Common.Contracts.Abstractions.ICondition.html#Fibula_Common_Contracts_Abstractions_ICondition_EndTime_
-  commentId: Overload:Fibula.Common.Contracts.Abstractions.ICondition.EndTime
+- uid: Fibula.Common.Contracts.Abstractions.ICondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  name: Aggregate(ICondition)
+  href: code/Fibula.Common.Contracts.Abstractions.ICondition.html#Fibula_Common_Contracts_Abstractions_ICondition_Aggregate_Fibula_Common_Contracts_Abstractions_ICondition_
+  commentId: M:Fibula.Common.Contracts.Abstractions.ICondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  fullName: Fibula.Common.Contracts.Abstractions.ICondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  nameWithType: ICondition.Aggregate(ICondition)
+- uid: Fibula.Common.Contracts.Abstractions.ICondition.Aggregate*
+  name: Aggregate
+  href: code/Fibula.Common.Contracts.Abstractions.ICondition.html#Fibula_Common_Contracts_Abstractions_ICondition_Aggregate_
+  commentId: Overload:Fibula.Common.Contracts.Abstractions.ICondition.Aggregate
   isSpec: "True"
-  fullName: Fibula.Common.Contracts.Abstractions.ICondition.EndTime
-  nameWithType: ICondition.EndTime
+  fullName: Fibula.Common.Contracts.Abstractions.ICondition.Aggregate
+  nameWithType: ICondition.Aggregate
 - uid: Fibula.Common.Contracts.Abstractions.ICondition.Type
   name: Type
   href: code/Fibula.Common.Contracts.Abstractions.ICondition.html#Fibula_Common_Contracts_Abstractions_ICondition_Type
@@ -594,6 +620,25 @@ references:
   isSpec: "True"
   fullName: Fibula.Common.Contracts.Abstractions.IConverter.Convert
   nameWithType: IConverter.Convert
+- uid: Fibula.Common.Contracts.Abstractions.IExhaustionCondition
+  name: IExhaustionCondition
+  href: code/Fibula.Common.Contracts.Abstractions.IExhaustionCondition.html
+  commentId: T:Fibula.Common.Contracts.Abstractions.IExhaustionCondition
+  fullName: Fibula.Common.Contracts.Abstractions.IExhaustionCondition
+  nameWithType: IExhaustionCondition
+- uid: Fibula.Common.Contracts.Abstractions.IExhaustionCondition.ExhaustionTimesPerType
+  name: ExhaustionTimesPerType
+  href: code/Fibula.Common.Contracts.Abstractions.IExhaustionCondition.html#Fibula_Common_Contracts_Abstractions_IExhaustionCondition_ExhaustionTimesPerType
+  commentId: P:Fibula.Common.Contracts.Abstractions.IExhaustionCondition.ExhaustionTimesPerType
+  fullName: Fibula.Common.Contracts.Abstractions.IExhaustionCondition.ExhaustionTimesPerType
+  nameWithType: IExhaustionCondition.ExhaustionTimesPerType
+- uid: Fibula.Common.Contracts.Abstractions.IExhaustionCondition.ExhaustionTimesPerType*
+  name: ExhaustionTimesPerType
+  href: code/Fibula.Common.Contracts.Abstractions.IExhaustionCondition.html#Fibula_Common_Contracts_Abstractions_IExhaustionCondition_ExhaustionTimesPerType_
+  commentId: Overload:Fibula.Common.Contracts.Abstractions.IExhaustionCondition.ExhaustionTimesPerType
+  isSpec: "True"
+  fullName: Fibula.Common.Contracts.Abstractions.IExhaustionCondition.ExhaustionTimesPerType
+  nameWithType: IExhaustionCondition.ExhaustionTimesPerType
 - uid: Fibula.Common.Contracts.Abstractions.ILocatable
   name: ILocatable
   href: code/Fibula.Common.Contracts.Abstractions.ILocatable.html
@@ -645,19 +690,6 @@ references:
   isSpec: "True"
   fullName: Fibula.Common.Contracts.Abstractions.IThing.CanBeMoved
   nameWithType: IThing.CanBeMoved
-- uid: Fibula.Common.Contracts.Abstractions.IThing.Conditions
-  name: Conditions
-  href: code/Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_Conditions
-  commentId: P:Fibula.Common.Contracts.Abstractions.IThing.Conditions
-  fullName: Fibula.Common.Contracts.Abstractions.IThing.Conditions
-  nameWithType: IThing.Conditions
-- uid: Fibula.Common.Contracts.Abstractions.IThing.Conditions*
-  name: Conditions
-  href: code/Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_Conditions_
-  commentId: Overload:Fibula.Common.Contracts.Abstractions.IThing.Conditions
-  isSpec: "True"
-  fullName: Fibula.Common.Contracts.Abstractions.IThing.Conditions
-  nameWithType: IThing.Conditions
 - uid: Fibula.Common.Contracts.Abstractions.IThing.DescribeForLogger
   name: DescribeForLogger()
   href: code/Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_DescribeForLogger
@@ -864,6 +896,12 @@ references:
   commentId: F:Fibula.Common.Contracts.Constants.TelemetryConstants.EventTypeDimensionName
   fullName: Fibula.Common.Contracts.Constants.TelemetryConstants.EventTypeDimensionName
   nameWithType: TelemetryConstants.EventTypeDimensionName
+- uid: Fibula.Common.Contracts.Constants.TelemetryConstants.MapTilesLoadedMetricName
+  name: MapTilesLoadedMetricName
+  href: code/Fibula.Common.Contracts.Constants.TelemetryConstants.html#Fibula_Common_Contracts_Constants_TelemetryConstants_MapTilesLoadedMetricName
+  commentId: F:Fibula.Common.Contracts.Constants.TelemetryConstants.MapTilesLoadedMetricName
+  fullName: Fibula.Common.Contracts.Constants.TelemetryConstants.MapTilesLoadedMetricName
+  nameWithType: TelemetryConstants.MapTilesLoadedMetricName
 - uid: Fibula.Common.Contracts.Constants.TelemetryConstants.OnlinePlayersMetricName
   name: OnlinePlayersMetricName
   href: code/Fibula.Common.Contracts.Constants.TelemetryConstants.html#Fibula_Common_Contracts_Constants_TelemetryConstants_OnlinePlayersMetricName
@@ -1011,12 +1049,6 @@ references:
   commentId: F:Fibula.Common.Contracts.Enumerations.AnimatedEffect.DamageVenomMissile
   fullName: Fibula.Common.Contracts.Enumerations.AnimatedEffect.DamageVenomMissile
   nameWithType: AnimatedEffect.DamageVenomMissile
-- uid: Fibula.Common.Contracts.Enumerations.AnimatedEffect.First
-  name: First
-  href: code/Fibula.Common.Contracts.Enumerations.AnimatedEffect.html#Fibula_Common_Contracts_Enumerations_AnimatedEffect_First
-  commentId: F:Fibula.Common.Contracts.Enumerations.AnimatedEffect.First
-  fullName: Fibula.Common.Contracts.Enumerations.AnimatedEffect.First
-  nameWithType: AnimatedEffect.First
 - uid: Fibula.Common.Contracts.Enumerations.AnimatedEffect.Flame
   name: Flame
   href: code/Fibula.Common.Contracts.Enumerations.AnimatedEffect.html#Fibula_Common_Contracts_Enumerations_AnimatedEffect_Flame
@@ -1041,12 +1073,6 @@ references:
   commentId: F:Fibula.Common.Contracts.Enumerations.AnimatedEffect.GlitterRed
   fullName: Fibula.Common.Contracts.Enumerations.AnimatedEffect.GlitterRed
   nameWithType: AnimatedEffect.GlitterRed
-- uid: Fibula.Common.Contracts.Enumerations.AnimatedEffect.Last
-  name: Last
-  href: code/Fibula.Common.Contracts.Enumerations.AnimatedEffect.html#Fibula_Common_Contracts_Enumerations_AnimatedEffect_Last
-  commentId: F:Fibula.Common.Contracts.Enumerations.AnimatedEffect.Last
-  fullName: Fibula.Common.Contracts.Enumerations.AnimatedEffect.Last
-  nameWithType: AnimatedEffect.Last
 - uid: Fibula.Common.Contracts.Enumerations.AnimatedEffect.None
   name: None
   href: code/Fibula.Common.Contracts.Enumerations.AnimatedEffect.html#Fibula_Common_Contracts_Enumerations_AnimatedEffect_None
@@ -1293,30 +1319,12 @@ references:
   commentId: F:Fibula.Common.Contracts.Enumerations.ConditionType.Electrified
   fullName: Fibula.Common.Contracts.Enumerations.ConditionType.Electrified
   nameWithType: ConditionType.Electrified
-- uid: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedAction
-  name: ExhaustedAction
-  href: code/Fibula.Common.Contracts.Enumerations.ConditionType.html#Fibula_Common_Contracts_Enumerations_ConditionType_ExhaustedAction
-  commentId: F:Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedAction
-  fullName: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedAction
-  nameWithType: ConditionType.ExhaustedAction
-- uid: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedCombat
-  name: ExhaustedCombat
-  href: code/Fibula.Common.Contracts.Enumerations.ConditionType.html#Fibula_Common_Contracts_Enumerations_ConditionType_ExhaustedCombat
-  commentId: F:Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedCombat
-  fullName: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedCombat
-  nameWithType: ConditionType.ExhaustedCombat
-- uid: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedMagic
-  name: ExhaustedMagic
-  href: code/Fibula.Common.Contracts.Enumerations.ConditionType.html#Fibula_Common_Contracts_Enumerations_ConditionType_ExhaustedMagic
-  commentId: F:Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedMagic
-  fullName: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedMagic
-  nameWithType: ConditionType.ExhaustedMagic
-- uid: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedMovement
-  name: ExhaustedMovement
-  href: code/Fibula.Common.Contracts.Enumerations.ConditionType.html#Fibula_Common_Contracts_Enumerations_ConditionType_ExhaustedMovement
-  commentId: F:Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedMovement
-  fullName: Fibula.Common.Contracts.Enumerations.ConditionType.ExhaustedMovement
-  nameWithType: ConditionType.ExhaustedMovement
+- uid: Fibula.Common.Contracts.Enumerations.ConditionType.Exhausted
+  name: Exhausted
+  href: code/Fibula.Common.Contracts.Enumerations.ConditionType.html#Fibula_Common_Contracts_Enumerations_ConditionType_Exhausted
+  commentId: F:Fibula.Common.Contracts.Enumerations.ConditionType.Exhausted
+  fullName: Fibula.Common.Contracts.Enumerations.ConditionType.Exhausted
+  nameWithType: ConditionType.Exhausted
 - uid: Fibula.Common.Contracts.Enumerations.ConditionType.InFight
   name: InFight
   href: code/Fibula.Common.Contracts.Enumerations.ConditionType.html#Fibula_Common_Contracts_Enumerations_ConditionType_InFight
@@ -1443,6 +1451,36 @@ references:
   commentId: F:Fibula.Common.Contracts.Enumerations.Direction.West
   fullName: Fibula.Common.Contracts.Enumerations.Direction.West
   nameWithType: Direction.West
+- uid: Fibula.Common.Contracts.Enumerations.ExhaustionType
+  name: ExhaustionType
+  href: code/Fibula.Common.Contracts.Enumerations.ExhaustionType.html
+  commentId: T:Fibula.Common.Contracts.Enumerations.ExhaustionType
+  fullName: Fibula.Common.Contracts.Enumerations.ExhaustionType
+  nameWithType: ExhaustionType
+- uid: Fibula.Common.Contracts.Enumerations.ExhaustionType.Action
+  name: Action
+  href: code/Fibula.Common.Contracts.Enumerations.ExhaustionType.html#Fibula_Common_Contracts_Enumerations_ExhaustionType_Action
+  commentId: F:Fibula.Common.Contracts.Enumerations.ExhaustionType.Action
+  fullName: Fibula.Common.Contracts.Enumerations.ExhaustionType.Action
+  nameWithType: ExhaustionType.Action
+- uid: Fibula.Common.Contracts.Enumerations.ExhaustionType.Combat
+  name: Combat
+  href: code/Fibula.Common.Contracts.Enumerations.ExhaustionType.html#Fibula_Common_Contracts_Enumerations_ExhaustionType_Combat
+  commentId: F:Fibula.Common.Contracts.Enumerations.ExhaustionType.Combat
+  fullName: Fibula.Common.Contracts.Enumerations.ExhaustionType.Combat
+  nameWithType: ExhaustionType.Combat
+- uid: Fibula.Common.Contracts.Enumerations.ExhaustionType.Magic
+  name: Magic
+  href: code/Fibula.Common.Contracts.Enumerations.ExhaustionType.html#Fibula_Common_Contracts_Enumerations_ExhaustionType_Magic
+  commentId: F:Fibula.Common.Contracts.Enumerations.ExhaustionType.Magic
+  fullName: Fibula.Common.Contracts.Enumerations.ExhaustionType.Magic
+  nameWithType: ExhaustionType.Magic
+- uid: Fibula.Common.Contracts.Enumerations.ExhaustionType.Movement
+  name: Movement
+  href: code/Fibula.Common.Contracts.Enumerations.ExhaustionType.html#Fibula_Common_Contracts_Enumerations_ExhaustionType_Movement
+  commentId: F:Fibula.Common.Contracts.Enumerations.ExhaustionType.Movement
+  fullName: Fibula.Common.Contracts.Enumerations.ExhaustionType.Movement
+  nameWithType: ExhaustionType.Movement
 - uid: Fibula.Common.Contracts.Enumerations.FightMode
   name: FightMode
   href: code/Fibula.Common.Contracts.Enumerations.FightMode.html
@@ -2817,19 +2855,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Common.Thing.CarryLocation
   nameWithType: Thing.CarryLocation
-- uid: Fibula.Common.Thing.Conditions
-  name: Conditions
-  href: code/Fibula.Common.Thing.html#Fibula_Common_Thing_Conditions
-  commentId: P:Fibula.Common.Thing.Conditions
-  fullName: Fibula.Common.Thing.Conditions
-  nameWithType: Thing.Conditions
-- uid: Fibula.Common.Thing.Conditions*
-  name: Conditions
-  href: code/Fibula.Common.Thing.html#Fibula_Common_Thing_Conditions_
-  commentId: Overload:Fibula.Common.Thing.Conditions
+- uid: Fibula.Common.Thing.Clone
+  name: Clone()
+  href: code/Fibula.Common.Thing.html#Fibula_Common_Thing_Clone
+  commentId: M:Fibula.Common.Thing.Clone
+  fullName: Fibula.Common.Thing.Clone()
+  nameWithType: Thing.Clone()
+- uid: Fibula.Common.Thing.Clone*
+  name: Clone
+  href: code/Fibula.Common.Thing.html#Fibula_Common_Thing_Clone_
+  commentId: Overload:Fibula.Common.Thing.Clone
   isSpec: "True"
-  fullName: Fibula.Common.Thing.Conditions
-  nameWithType: Thing.Conditions
+  fullName: Fibula.Common.Thing.Clone
+  nameWithType: Thing.Clone
 - uid: Fibula.Common.Thing.DescribeForLogger
   name: DescribeForLogger()
   href: code/Fibula.Common.Thing.html#Fibula_Common_Thing_DescribeForLogger
@@ -2914,6 +2952,12 @@ references:
   isSpec: "True"
   fullName: Fibula.Common.Thing.StartTrackingEvent
   nameWithType: Thing.StartTrackingEvent
+- uid: Fibula.Common.Thing.StopTrackingEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  name: StopTrackingEvent(IEvent)
+  href: code/Fibula.Common.Thing.html#Fibula_Common_Thing_StopTrackingEvent_Fibula_Scheduling_Contracts_Abstractions_IEvent_
+  commentId: M:Fibula.Common.Thing.StopTrackingEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  fullName: Fibula.Common.Thing.StopTrackingEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  nameWithType: Thing.StopTrackingEvent(IEvent)
 - uid: Fibula.Common.Thing.StopTrackingEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.String)
   name: StopTrackingEvent(IEvent, String)
   href: code/Fibula.Common.Thing.html#Fibula_Common_Thing_StopTrackingEvent_Fibula_Scheduling_Contracts_Abstractions_IEvent_System_String_
@@ -10042,6 +10086,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.CombatantCreature.CombatantCreature
   nameWithType: CombatantCreature.CombatantCreature
+- uid: Fibula.Creatures.CombatantCreature.AddExperience(System.Int64)
+  name: AddExperience(Int64)
+  href: code/Fibula.Creatures.CombatantCreature.html#Fibula_Creatures_CombatantCreature_AddExperience_System_Int64_
+  commentId: M:Fibula.Creatures.CombatantCreature.AddExperience(System.Int64)
+  fullName: Fibula.Creatures.CombatantCreature.AddExperience(System.Int64)
+  nameWithType: CombatantCreature.AddExperience(Int64)
+- uid: Fibula.Creatures.CombatantCreature.AddExperience*
+  name: AddExperience
+  href: code/Fibula.Creatures.CombatantCreature.html#Fibula_Creatures_CombatantCreature_AddExperience_
+  commentId: Overload:Fibula.Creatures.CombatantCreature.AddExperience
+  isSpec: "True"
+  fullName: Fibula.Creatures.CombatantCreature.AddExperience
+  nameWithType: CombatantCreature.AddExperience
 - uid: Fibula.Creatures.CombatantCreature.AddToCombatList(Fibula.Mechanics.Contracts.Abstractions.ICombatant)
   name: AddToCombatList(ICombatant)
   href: code/Fibula.Creatures.CombatantCreature.html#Fibula_Creatures_CombatantCreature_AddToCombatList_Fibula_Mechanics_Contracts_Abstractions_ICombatant_
@@ -10284,12 +10341,15 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.CombatantCreature.IncreaseDefenseSpeed
   nameWithType: CombatantCreature.IncreaseDefenseSpeed
-- uid: Fibula.Creatures.CombatantCreature.RaiseSkillChange(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Byte)
-  name: RaiseSkillChange(SkillType, UInt32, Byte)
-  href: code/Fibula.Creatures.CombatantCreature.html#Fibula_Creatures_CombatantCreature_RaiseSkillChange_Fibula_Data_Entities_Contracts_Enumerations_SkillType_System_UInt32_System_Byte_
-  commentId: M:Fibula.Creatures.CombatantCreature.RaiseSkillChange(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Byte)
-  fullName: Fibula.Creatures.CombatantCreature.RaiseSkillChange(Fibula.Data.Entities.Contracts.Enumerations.SkillType, System.UInt32, System.Byte)
-  nameWithType: CombatantCreature.RaiseSkillChange(SkillType, UInt32, Byte)
+- uid: Fibula.Creatures.CombatantCreature.RaiseSkillChange(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Byte,System.Nullable{System.Int64})
+  name: RaiseSkillChange(SkillType, UInt32, Byte, Nullable<Int64>)
+  href: code/Fibula.Creatures.CombatantCreature.html#Fibula_Creatures_CombatantCreature_RaiseSkillChange_Fibula_Data_Entities_Contracts_Enumerations_SkillType_System_UInt32_System_Byte_System_Nullable_System_Int64__
+  commentId: M:Fibula.Creatures.CombatantCreature.RaiseSkillChange(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Byte,System.Nullable{System.Int64})
+  name.vb: RaiseSkillChange(SkillType, UInt32, Byte, Nullable(Of Int64))
+  fullName: Fibula.Creatures.CombatantCreature.RaiseSkillChange(Fibula.Data.Entities.Contracts.Enumerations.SkillType, System.UInt32, System.Byte, System.Nullable<System.Int64>)
+  fullName.vb: Fibula.Creatures.CombatantCreature.RaiseSkillChange(Fibula.Data.Entities.Contracts.Enumerations.SkillType, System.UInt32, System.Byte, System.Nullable(Of System.Int64))
+  nameWithType: CombatantCreature.RaiseSkillChange(SkillType, UInt32, Byte, Nullable<Int64>)
+  nameWithType.vb: CombatantCreature.RaiseSkillChange(SkillType, UInt32, Byte, Nullable(Of Int64))
 - uid: Fibula.Creatures.CombatantCreature.RaiseSkillChange*
   name: RaiseSkillChange
   href: code/Fibula.Creatures.CombatantCreature.html#Fibula_Creatures_CombatantCreature_RaiseSkillChange_
@@ -10873,19 +10933,19 @@ references:
   commentId: T:Fibula.Creatures.Contracts.Abstractions.IMonster
   fullName: Fibula.Creatures.Contracts.Abstractions.IMonster
   nameWithType: IMonster
-- uid: Fibula.Creatures.Contracts.Abstractions.IMonster.Experience
-  name: Experience
-  href: code/Fibula.Creatures.Contracts.Abstractions.IMonster.html#Fibula_Creatures_Contracts_Abstractions_IMonster_Experience
-  commentId: P:Fibula.Creatures.Contracts.Abstractions.IMonster.Experience
-  fullName: Fibula.Creatures.Contracts.Abstractions.IMonster.Experience
-  nameWithType: IMonster.Experience
-- uid: Fibula.Creatures.Contracts.Abstractions.IMonster.Experience*
-  name: Experience
-  href: code/Fibula.Creatures.Contracts.Abstractions.IMonster.html#Fibula_Creatures_Contracts_Abstractions_IMonster_Experience_
-  commentId: Overload:Fibula.Creatures.Contracts.Abstractions.IMonster.Experience
+- uid: Fibula.Creatures.Contracts.Abstractions.IMonster.ExperienceToYield
+  name: ExperienceToYield
+  href: code/Fibula.Creatures.Contracts.Abstractions.IMonster.html#Fibula_Creatures_Contracts_Abstractions_IMonster_ExperienceToYield
+  commentId: P:Fibula.Creatures.Contracts.Abstractions.IMonster.ExperienceToYield
+  fullName: Fibula.Creatures.Contracts.Abstractions.IMonster.ExperienceToYield
+  nameWithType: IMonster.ExperienceToYield
+- uid: Fibula.Creatures.Contracts.Abstractions.IMonster.ExperienceToYield*
+  name: ExperienceToYield
+  href: code/Fibula.Creatures.Contracts.Abstractions.IMonster.html#Fibula_Creatures_Contracts_Abstractions_IMonster_ExperienceToYield_
+  commentId: Overload:Fibula.Creatures.Contracts.Abstractions.IMonster.ExperienceToYield
   isSpec: "True"
-  fullName: Fibula.Creatures.Contracts.Abstractions.IMonster.Experience
-  nameWithType: IMonster.Experience
+  fullName: Fibula.Creatures.Contracts.Abstractions.IMonster.ExperienceToYield
+  nameWithType: IMonster.ExperienceToYield
 - uid: Fibula.Creatures.Contracts.Abstractions.IMonster.Type
   name: Type
   href: code/Fibula.Creatures.Contracts.Abstractions.IMonster.html#Fibula_Creatures_Contracts_Abstractions_IMonster_Type
@@ -10969,19 +11029,6 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.Contracts.Abstractions.IPlayer.Client
   nameWithType: IPlayer.Client
-- uid: Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut
-  name: IsAllowedToLogOut
-  href: code/Fibula.Creatures.Contracts.Abstractions.IPlayer.html#Fibula_Creatures_Contracts_Abstractions_IPlayer_IsAllowedToLogOut
-  commentId: P:Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut
-  fullName: Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut
-  nameWithType: IPlayer.IsAllowedToLogOut
-- uid: Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut*
-  name: IsAllowedToLogOut
-  href: code/Fibula.Creatures.Contracts.Abstractions.IPlayer.html#Fibula_Creatures_Contracts_Abstractions_IPlayer_IsAllowedToLogOut_
-  commentId: Overload:Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut
-  isSpec: "True"
-  fullName: Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut
-  nameWithType: IPlayer.IsAllowedToLogOut
 - uid: Fibula.Creatures.Contracts.Abstractions.IPlayer.PermissionsLevel
   name: PermissionsLevel
   href: code/Fibula.Creatures.Contracts.Abstractions.IPlayer.html#Fibula_Creatures_Contracts_Abstractions_IPlayer_PermissionsLevel
@@ -12411,19 +12458,32 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.Monster.CanBeMoved
   nameWithType: Monster.CanBeMoved
-- uid: Fibula.Creatures.Monster.Experience
-  name: Experience
-  href: code/Fibula.Creatures.Monster.html#Fibula_Creatures_Monster_Experience
-  commentId: P:Fibula.Creatures.Monster.Experience
-  fullName: Fibula.Creatures.Monster.Experience
-  nameWithType: Monster.Experience
-- uid: Fibula.Creatures.Monster.Experience*
-  name: Experience
-  href: code/Fibula.Creatures.Monster.html#Fibula_Creatures_Monster_Experience_
-  commentId: Overload:Fibula.Creatures.Monster.Experience
+- uid: Fibula.Creatures.Monster.Clone
+  name: Clone()
+  href: code/Fibula.Creatures.Monster.html#Fibula_Creatures_Monster_Clone
+  commentId: M:Fibula.Creatures.Monster.Clone
+  fullName: Fibula.Creatures.Monster.Clone()
+  nameWithType: Monster.Clone()
+- uid: Fibula.Creatures.Monster.Clone*
+  name: Clone
+  href: code/Fibula.Creatures.Monster.html#Fibula_Creatures_Monster_Clone_
+  commentId: Overload:Fibula.Creatures.Monster.Clone
   isSpec: "True"
-  fullName: Fibula.Creatures.Monster.Experience
-  nameWithType: Monster.Experience
+  fullName: Fibula.Creatures.Monster.Clone
+  nameWithType: Monster.Clone
+- uid: Fibula.Creatures.Monster.ExperienceToYield
+  name: ExperienceToYield
+  href: code/Fibula.Creatures.Monster.html#Fibula_Creatures_Monster_ExperienceToYield
+  commentId: P:Fibula.Creatures.Monster.ExperienceToYield
+  fullName: Fibula.Creatures.Monster.ExperienceToYield
+  nameWithType: Monster.ExperienceToYield
+- uid: Fibula.Creatures.Monster.ExperienceToYield*
+  name: ExperienceToYield
+  href: code/Fibula.Creatures.Monster.html#Fibula_Creatures_Monster_ExperienceToYield_
+  commentId: Overload:Fibula.Creatures.Monster.ExperienceToYield
+  isSpec: "True"
+  fullName: Fibula.Creatures.Monster.ExperienceToYield
+  nameWithType: Monster.ExperienceToYield
 - uid: Fibula.Creatures.Monster.Inventory
   name: Inventory
   href: code/Fibula.Creatures.Monster.html#Fibula_Creatures_Monster_Inventory
@@ -12702,12 +12762,12 @@ references:
   commentId: T:Fibula.Creatures.MonsterSkill
   fullName: Fibula.Creatures.MonsterSkill
   nameWithType: MonsterSkill
-- uid: Fibula.Creatures.MonsterSkill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,System.Byte)
-  name: MonsterSkill(SkillType, Int32, Int32, Int32, UInt32, UInt32, Byte)
-  href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill__ctor_Fibula_Data_Entities_Contracts_Enumerations_SkillType_System_Int32_System_Int32_System_Int32_System_UInt32_System_UInt32_System_Byte_
-  commentId: M:Fibula.Creatures.MonsterSkill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,System.Byte)
-  fullName: Fibula.Creatures.MonsterSkill.MonsterSkill(Fibula.Data.Entities.Contracts.Enumerations.SkillType, System.Int32, System.Int32, System.Int32, System.UInt32, System.UInt32, System.Byte)
-  nameWithType: MonsterSkill.MonsterSkill(SkillType, Int32, Int32, Int32, UInt32, UInt32, Byte)
+- uid: Fibula.Creatures.MonsterSkill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
+  name: MonsterSkill(SkillType, Int32, Int32, Int32, UInt32, UInt32, UInt32, Byte)
+  href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill__ctor_Fibula_Data_Entities_Contracts_Enumerations_SkillType_System_Int32_System_Int32_System_Int32_System_UInt32_System_UInt32_System_UInt32_System_Byte_
+  commentId: M:Fibula.Creatures.MonsterSkill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.Int32,System.Int32,System.Int32,System.UInt32,System.UInt32,System.UInt32,System.Byte)
+  fullName: Fibula.Creatures.MonsterSkill.MonsterSkill(Fibula.Data.Entities.Contracts.Enumerations.SkillType, System.Int32, System.Int32, System.Int32, System.UInt32, System.UInt32, System.UInt32, System.Byte)
+  nameWithType: MonsterSkill.MonsterSkill(SkillType, Int32, Int32, Int32, UInt32, UInt32, UInt32, Byte)
 - uid: Fibula.Creatures.MonsterSkill.#ctor*
   name: MonsterSkill
   href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill__ctor_
@@ -12838,19 +12898,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.MonsterSkill.Rate
   nameWithType: MonsterSkill.Rate
-- uid: Fibula.Creatures.MonsterSkill.StartingCountAtLevel
-  name: StartingCountAtLevel
-  href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill_StartingCountAtLevel
-  commentId: P:Fibula.Creatures.MonsterSkill.StartingCountAtLevel
-  fullName: Fibula.Creatures.MonsterSkill.StartingCountAtLevel
-  nameWithType: MonsterSkill.StartingCountAtLevel
-- uid: Fibula.Creatures.MonsterSkill.StartingCountAtLevel*
-  name: StartingCountAtLevel
-  href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill_StartingCountAtLevel_
-  commentId: Overload:Fibula.Creatures.MonsterSkill.StartingCountAtLevel
+- uid: Fibula.Creatures.MonsterSkill.StartingCount
+  name: StartingCount
+  href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill_StartingCount
+  commentId: P:Fibula.Creatures.MonsterSkill.StartingCount
+  fullName: Fibula.Creatures.MonsterSkill.StartingCount
+  nameWithType: MonsterSkill.StartingCount
+- uid: Fibula.Creatures.MonsterSkill.StartingCount*
+  name: StartingCount
+  href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill_StartingCount_
+  commentId: Overload:Fibula.Creatures.MonsterSkill.StartingCount
   isSpec: "True"
-  fullName: Fibula.Creatures.MonsterSkill.StartingCountAtLevel
-  nameWithType: MonsterSkill.StartingCountAtLevel
+  fullName: Fibula.Creatures.MonsterSkill.StartingCount
+  nameWithType: MonsterSkill.StartingCount
 - uid: Fibula.Creatures.MonsterSkill.TargetCount
   name: TargetCount
   href: code/Fibula.Creatures.MonsterSkill.html#Fibula_Creatures_MonsterSkill_TargetCount
@@ -12990,6 +13050,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.Player.Client
   nameWithType: Player.Client
+- uid: Fibula.Creatures.Player.Clone
+  name: Clone()
+  href: code/Fibula.Creatures.Player.html#Fibula_Creatures_Player_Clone
+  commentId: M:Fibula.Creatures.Player.Clone
+  fullName: Fibula.Creatures.Player.Clone()
+  nameWithType: Player.Clone()
+- uid: Fibula.Creatures.Player.Clone*
+  name: Clone
+  href: code/Fibula.Creatures.Player.html#Fibula_Creatures_Player_Clone_
+  commentId: Overload:Fibula.Creatures.Player.Clone
+  isSpec: "True"
+  fullName: Fibula.Creatures.Player.Clone
+  nameWithType: Player.Clone
 - uid: Fibula.Creatures.Player.Inventory
   name: Inventory
   href: code/Fibula.Creatures.Player.html#Fibula_Creatures_Player_Inventory
@@ -13003,19 +13076,6 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.Player.Inventory
   nameWithType: Player.Inventory
-- uid: Fibula.Creatures.Player.IsAllowedToLogOut
-  name: IsAllowedToLogOut
-  href: code/Fibula.Creatures.Player.html#Fibula_Creatures_Player_IsAllowedToLogOut
-  commentId: P:Fibula.Creatures.Player.IsAllowedToLogOut
-  fullName: Fibula.Creatures.Player.IsAllowedToLogOut
-  nameWithType: Player.IsAllowedToLogOut
-- uid: Fibula.Creatures.Player.IsAllowedToLogOut*
-  name: IsAllowedToLogOut
-  href: code/Fibula.Creatures.Player.html#Fibula_Creatures_Player_IsAllowedToLogOut_
-  commentId: Overload:Fibula.Creatures.Player.IsAllowedToLogOut
-  isSpec: "True"
-  fullName: Fibula.Creatures.Player.IsAllowedToLogOut
-  nameWithType: Player.IsAllowedToLogOut
 - uid: Fibula.Creatures.Player.PermissionsLevel
   name: PermissionsLevel
   href: code/Fibula.Creatures.Player.html#Fibula_Creatures_Player_PermissionsLevel
@@ -13093,12 +13153,12 @@ references:
   commentId: T:Fibula.Creatures.Skill
   fullName: Fibula.Creatures.Skill
   nameWithType: Skill
-- uid: Fibula.Creatures.Skill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Double,System.Double,System.UInt32,System.UInt32,System.Double)
-  name: Skill(SkillType, UInt32, Double, Double, UInt32, UInt32, Double)
-  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill__ctor_Fibula_Data_Entities_Contracts_Enumerations_SkillType_System_UInt32_System_Double_System_Double_System_UInt32_System_UInt32_System_Double_
-  commentId: M:Fibula.Creatures.Skill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Double,System.Double,System.UInt32,System.UInt32,System.Double)
-  fullName: Fibula.Creatures.Skill.Skill(Fibula.Data.Entities.Contracts.Enumerations.SkillType, System.UInt32, System.Double, System.Double, System.UInt32, System.UInt32, System.Double)
-  nameWithType: Skill.Skill(SkillType, UInt32, Double, Double, UInt32, UInt32, Double)
+- uid: Fibula.Creatures.Skill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Double,System.Double,System.UInt32,System.UInt32,System.Double,System.Boolean)
+  name: Skill(SkillType, UInt32, Double, Double, UInt32, UInt32, Double, Boolean)
+  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill__ctor_Fibula_Data_Entities_Contracts_Enumerations_SkillType_System_UInt32_System_Double_System_Double_System_UInt32_System_UInt32_System_Double_System_Boolean_
+  commentId: M:Fibula.Creatures.Skill.#ctor(Fibula.Data.Entities.Contracts.Enumerations.SkillType,System.UInt32,System.Double,System.Double,System.UInt32,System.UInt32,System.Double,System.Boolean)
+  fullName: Fibula.Creatures.Skill.Skill(Fibula.Data.Entities.Contracts.Enumerations.SkillType, System.UInt32, System.Double, System.Double, System.UInt32, System.UInt32, System.Double, System.Boolean)
+  nameWithType: Skill.Skill(SkillType, UInt32, Double, Double, UInt32, UInt32, Double, Boolean)
 - uid: Fibula.Creatures.Skill.#ctor*
   name: Skill
   href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill__ctor_
@@ -13216,19 +13276,32 @@ references:
   isSpec: "True"
   fullName: Fibula.Creatures.Skill.Rate
   nameWithType: Skill.Rate
-- uid: Fibula.Creatures.Skill.StartingCountAtLevel
-  name: StartingCountAtLevel
-  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill_StartingCountAtLevel
-  commentId: P:Fibula.Creatures.Skill.StartingCountAtLevel
-  fullName: Fibula.Creatures.Skill.StartingCountAtLevel
-  nameWithType: Skill.StartingCountAtLevel
-- uid: Fibula.Creatures.Skill.StartingCountAtLevel*
-  name: StartingCountAtLevel
-  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill_StartingCountAtLevel_
-  commentId: Overload:Fibula.Creatures.Skill.StartingCountAtLevel
+- uid: Fibula.Creatures.Skill.SendOnCounterChange
+  name: SendOnCounterChange
+  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill_SendOnCounterChange
+  commentId: P:Fibula.Creatures.Skill.SendOnCounterChange
+  fullName: Fibula.Creatures.Skill.SendOnCounterChange
+  nameWithType: Skill.SendOnCounterChange
+- uid: Fibula.Creatures.Skill.SendOnCounterChange*
+  name: SendOnCounterChange
+  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill_SendOnCounterChange_
+  commentId: Overload:Fibula.Creatures.Skill.SendOnCounterChange
   isSpec: "True"
-  fullName: Fibula.Creatures.Skill.StartingCountAtLevel
-  nameWithType: Skill.StartingCountAtLevel
+  fullName: Fibula.Creatures.Skill.SendOnCounterChange
+  nameWithType: Skill.SendOnCounterChange
+- uid: Fibula.Creatures.Skill.StartingCount
+  name: StartingCount
+  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill_StartingCount
+  commentId: P:Fibula.Creatures.Skill.StartingCount
+  fullName: Fibula.Creatures.Skill.StartingCount
+  nameWithType: Skill.StartingCount
+- uid: Fibula.Creatures.Skill.StartingCount*
+  name: StartingCount
+  href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill_StartingCount_
+  commentId: Overload:Fibula.Creatures.Skill.StartingCount
+  isSpec: "True"
+  fullName: Fibula.Creatures.Skill.StartingCount
+  nameWithType: Skill.StartingCount
 - uid: Fibula.Creatures.Skill.TargetCount
   name: TargetCount
   href: code/Fibula.Creatures.Skill.html#Fibula_Creatures_Skill_TargetCount
@@ -17056,6 +17129,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Items.ContainerItem.Capacity
   nameWithType: ContainerItem.Capacity
+- uid: Fibula.Items.ContainerItem.Clone
+  name: Clone()
+  href: code/Fibula.Items.ContainerItem.html#Fibula_Items_ContainerItem_Clone
+  commentId: M:Fibula.Items.ContainerItem.Clone
+  fullName: Fibula.Items.ContainerItem.Clone()
+  nameWithType: ContainerItem.Clone()
+- uid: Fibula.Items.ContainerItem.Clone*
+  name: Clone
+  href: code/Fibula.Items.ContainerItem.html#Fibula_Items_ContainerItem_Clone_
+  commentId: Overload:Fibula.Items.ContainerItem.Clone
+  isSpec: "True"
+  fullName: Fibula.Items.ContainerItem.Clone
+  nameWithType: ContainerItem.Clone
 - uid: Fibula.Items.ContainerItem.Content
   name: Content
   href: code/Fibula.Items.ContainerItem.html#Fibula_Items_ContainerItem_Content
@@ -17819,6 +17905,12 @@ references:
   isSpec: "True"
   fullName: Fibula.Items.Contracts.Abstractions.IItemFactory.FindTypeById
   nameWithType: IItemFactory.FindTypeById
+- uid: Fibula.Items.Contracts.Abstractions.IItemFactory.ItemCreated
+  name: ItemCreated
+  href: code/Fibula.Items.Contracts.Abstractions.IItemFactory.html#Fibula_Items_Contracts_Abstractions_IItemFactory_ItemCreated
+  commentId: E:Fibula.Items.Contracts.Abstractions.IItemFactory.ItemCreated
+  fullName: Fibula.Items.Contracts.Abstractions.IItemFactory.ItemCreated
+  nameWithType: IItemFactory.ItemCreated
 - uid: Fibula.Items.Contracts.Abstractions.IItemTypeLoader
   name: IItemTypeLoader
   href: code/Fibula.Items.Contracts.Abstractions.IItemTypeLoader.html
@@ -17924,6 +18016,12 @@ references:
   commentId: T:Fibula.Items.Contracts.Delegates.OnContentUpdated
   fullName: Fibula.Items.Contracts.Delegates.OnContentUpdated
   nameWithType: OnContentUpdated
+- uid: Fibula.Items.Contracts.Delegates.OnItemCreated
+  name: OnItemCreated
+  href: code/Fibula.Items.Contracts.Delegates.OnItemCreated.html
+  commentId: T:Fibula.Items.Contracts.Delegates.OnItemCreated
+  fullName: Fibula.Items.Contracts.Delegates.OnItemCreated
+  nameWithType: OnItemCreated
 - uid: Fibula.Items.Contracts.Enumerations
   name: Fibula.Items.Contracts.Enumerations
   href: code/Fibula.Items.Contracts.Enumerations.html
@@ -18369,6 +18467,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Items.Item.ChangesOnUse
   nameWithType: Item.ChangesOnUse
+- uid: Fibula.Items.Item.Clone
+  name: Clone()
+  href: code/Fibula.Items.Item.html#Fibula_Items_Item_Clone
+  commentId: M:Fibula.Items.Item.Clone
+  fullName: Fibula.Items.Item.Clone()
+  nameWithType: Item.Clone()
+- uid: Fibula.Items.Item.Clone*
+  name: Clone
+  href: code/Fibula.Items.Item.html#Fibula_Items_Item_Clone_
+  commentId: Overload:Fibula.Items.Item.Clone
+  isSpec: "True"
+  fullName: Fibula.Items.Item.Clone
+  nameWithType: Item.Clone
 - uid: Fibula.Items.Item.DescribeForLogger
   name: DescribeForLogger()
   href: code/Fibula.Items.Item.html#Fibula_Items_Item_DescribeForLogger
@@ -18797,6 +18908,12 @@ references:
   isSpec: "True"
   fullName: Fibula.Items.ItemFactory.FindTypeById
   nameWithType: ItemFactory.FindTypeById
+- uid: Fibula.Items.ItemFactory.ItemCreated
+  name: ItemCreated
+  href: code/Fibula.Items.ItemFactory.html#Fibula_Items_ItemFactory_ItemCreated
+  commentId: E:Fibula.Items.ItemFactory.ItemCreated
+  fullName: Fibula.Items.ItemFactory.ItemCreated
+  nameWithType: ItemFactory.ItemCreated
 - uid: Fibula.Map
   name: Fibula.Map
   href: code/Fibula.Map.html
@@ -20186,12 +20303,12 @@ references:
   commentId: T:Fibula.Mechanics.Conditions.Condition
   fullName: Fibula.Mechanics.Conditions.Condition
   nameWithType: Condition
-- uid: Fibula.Mechanics.Conditions.Condition.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType,System.DateTimeOffset)
-  name: Condition(ConditionType, DateTimeOffset)
-  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition__ctor_Fibula_Common_Contracts_Enumerations_ConditionType_System_DateTimeOffset_
-  commentId: M:Fibula.Mechanics.Conditions.Condition.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType,System.DateTimeOffset)
-  fullName: Fibula.Mechanics.Conditions.Condition.Condition(Fibula.Common.Contracts.Enumerations.ConditionType, System.DateTimeOffset)
-  nameWithType: Condition.Condition(ConditionType, DateTimeOffset)
+- uid: Fibula.Mechanics.Conditions.Condition.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType)
+  name: Condition(ConditionType)
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition__ctor_Fibula_Common_Contracts_Enumerations_ConditionType_
+  commentId: M:Fibula.Mechanics.Conditions.Condition.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType)
+  fullName: Fibula.Mechanics.Conditions.Condition.Condition(Fibula.Common.Contracts.Enumerations.ConditionType)
+  nameWithType: Condition.Condition(ConditionType)
 - uid: Fibula.Mechanics.Conditions.Condition.#ctor*
   name: Condition
   href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition__ctor_
@@ -20199,6 +20316,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Conditions.Condition.Condition
   nameWithType: Condition.Condition
+- uid: Fibula.Mechanics.Conditions.Condition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  name: Aggregate(ICondition)
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_Aggregate_Fibula_Common_Contracts_Abstractions_ICondition_
+  commentId: M:Fibula.Mechanics.Conditions.Condition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  fullName: Fibula.Mechanics.Conditions.Condition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  nameWithType: Condition.Aggregate(ICondition)
+- uid: Fibula.Mechanics.Conditions.Condition.Aggregate*
+  name: Aggregate
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_Aggregate_
+  commentId: Overload:Fibula.Mechanics.Conditions.Condition.Aggregate
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.Condition.Aggregate
+  nameWithType: Condition.Aggregate
 - uid: Fibula.Mechanics.Conditions.Condition.CanBeCancelled
   name: CanBeCancelled
   href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_CanBeCancelled
@@ -20212,19 +20342,25 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Conditions.Condition.CanBeCancelled
   nameWithType: Condition.CanBeCancelled
-- uid: Fibula.Mechanics.Conditions.Condition.EndTime
-  name: EndTime
-  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_EndTime
-  commentId: P:Fibula.Mechanics.Conditions.Condition.EndTime
-  fullName: Fibula.Mechanics.Conditions.Condition.EndTime
-  nameWithType: Condition.EndTime
-- uid: Fibula.Mechanics.Conditions.Condition.EndTime*
-  name: EndTime
-  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_EndTime_
-  commentId: Overload:Fibula.Mechanics.Conditions.Condition.EndTime
+- uid: Fibula.Mechanics.Conditions.Condition.EventType
+  name: EventType
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_EventType
+  commentId: P:Fibula.Mechanics.Conditions.Condition.EventType
+  fullName: Fibula.Mechanics.Conditions.Condition.EventType
+  nameWithType: Condition.EventType
+- uid: Fibula.Mechanics.Conditions.Condition.EventType*
+  name: EventType
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_EventType_
+  commentId: Overload:Fibula.Mechanics.Conditions.Condition.EventType
   isSpec: "True"
-  fullName: Fibula.Mechanics.Conditions.Condition.EndTime
-  nameWithType: Condition.EndTime
+  fullName: Fibula.Mechanics.Conditions.Condition.EventType
+  nameWithType: Condition.EventType
+- uid: Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  name: Execute(IConditionContext)
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_Execute_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_
+  commentId: M:Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  fullName: Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  nameWithType: Condition.Execute(IConditionContext)
 - uid: Fibula.Mechanics.Conditions.Condition.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
   name: Execute(IEventContext)
   href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_
@@ -20238,19 +20374,35 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Conditions.Condition.Execute
   nameWithType: Condition.Execute
-- uid: Fibula.Mechanics.Conditions.Condition.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
-  name: Pulse(IEventContext)
-  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_Pulse_Fibula_Scheduling_Contracts_Abstractions_IEventContext_
-  commentId: M:Fibula.Mechanics.Conditions.Condition.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
-  fullName: Fibula.Mechanics.Conditions.Condition.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
-  nameWithType: Condition.Pulse(IEventContext)
-- uid: Fibula.Mechanics.Conditions.Condition.Pulse*
-  name: Pulse
-  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_Pulse_
-  commentId: Overload:Fibula.Mechanics.Conditions.Condition.Pulse
+- uid: Fibula.Mechanics.Conditions.Condition.SendNotification(Fibula.Mechanics.Contracts.Abstractions.IConditionContext,Fibula.Mechanics.Contracts.Abstractions.INotification)
+  name: SendNotification(IConditionContext, INotification)
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_SendNotification_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Fibula_Mechanics_Contracts_Abstractions_INotification_
+  commentId: M:Fibula.Mechanics.Conditions.Condition.SendNotification(Fibula.Mechanics.Contracts.Abstractions.IConditionContext,Fibula.Mechanics.Contracts.Abstractions.INotification)
+  fullName: Fibula.Mechanics.Conditions.Condition.SendNotification(Fibula.Mechanics.Contracts.Abstractions.IConditionContext, Fibula.Mechanics.Contracts.Abstractions.INotification)
+  nameWithType: Condition.SendNotification(IConditionContext, INotification)
+- uid: Fibula.Mechanics.Conditions.Condition.SendNotification*
+  name: SendNotification
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_SendNotification_
+  commentId: Overload:Fibula.Mechanics.Conditions.Condition.SendNotification
   isSpec: "True"
-  fullName: Fibula.Mechanics.Conditions.Condition.Pulse
-  nameWithType: Condition.Pulse
+  fullName: Fibula.Mechanics.Conditions.Condition.SendNotification
+  nameWithType: Condition.SendNotification
+- uid: Fibula.Mechanics.Conditions.Condition.SendNotificationAsync(Fibula.Mechanics.Contracts.Abstractions.IConditionContext,Fibula.Mechanics.Contracts.Abstractions.INotification,System.Nullable{System.TimeSpan})
+  name: SendNotificationAsync(IConditionContext, INotification, Nullable<TimeSpan>)
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_SendNotificationAsync_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Fibula_Mechanics_Contracts_Abstractions_INotification_System_Nullable_System_TimeSpan__
+  commentId: M:Fibula.Mechanics.Conditions.Condition.SendNotificationAsync(Fibula.Mechanics.Contracts.Abstractions.IConditionContext,Fibula.Mechanics.Contracts.Abstractions.INotification,System.Nullable{System.TimeSpan})
+  name.vb: SendNotificationAsync(IConditionContext, INotification, Nullable(Of TimeSpan))
+  fullName: Fibula.Mechanics.Conditions.Condition.SendNotificationAsync(Fibula.Mechanics.Contracts.Abstractions.IConditionContext, Fibula.Mechanics.Contracts.Abstractions.INotification, System.Nullable<System.TimeSpan>)
+  fullName.vb: Fibula.Mechanics.Conditions.Condition.SendNotificationAsync(Fibula.Mechanics.Contracts.Abstractions.IConditionContext, Fibula.Mechanics.Contracts.Abstractions.INotification, System.Nullable(Of System.TimeSpan))
+  nameWithType: Condition.SendNotificationAsync(IConditionContext, INotification, Nullable<TimeSpan>)
+  nameWithType.vb: Condition.SendNotificationAsync(IConditionContext, INotification, Nullable(Of TimeSpan))
+- uid: Fibula.Mechanics.Conditions.Condition.SendNotificationAsync*
+  name: SendNotificationAsync
+  href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_SendNotificationAsync_
+  commentId: Overload:Fibula.Mechanics.Conditions.Condition.SendNotificationAsync
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.Condition.SendNotificationAsync
+  nameWithType: Condition.SendNotificationAsync
 - uid: Fibula.Mechanics.Conditions.Condition.Type
   name: Type
   href: code/Fibula.Mechanics.Conditions.Condition.html#Fibula_Mechanics_Conditions_Condition_Type
@@ -20264,38 +20416,264 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Conditions.Condition.Type
   nameWithType: Condition.Type
-- uid: Fibula.Mechanics.Conditions.ExhaustionContidion
-  name: ExhaustionContidion
-  href: code/Fibula.Mechanics.Conditions.ExhaustionContidion.html
-  commentId: T:Fibula.Mechanics.Conditions.ExhaustionContidion
-  fullName: Fibula.Mechanics.Conditions.ExhaustionContidion
-  nameWithType: ExhaustionContidion
-- uid: Fibula.Mechanics.Conditions.ExhaustionContidion.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType,System.DateTimeOffset)
-  name: ExhaustionContidion(ConditionType, DateTimeOffset)
-  href: code/Fibula.Mechanics.Conditions.ExhaustionContidion.html#Fibula_Mechanics_Conditions_ExhaustionContidion__ctor_Fibula_Common_Contracts_Enumerations_ConditionType_System_DateTimeOffset_
-  commentId: M:Fibula.Mechanics.Conditions.ExhaustionContidion.#ctor(Fibula.Common.Contracts.Enumerations.ConditionType,System.DateTimeOffset)
-  fullName: Fibula.Mechanics.Conditions.ExhaustionContidion.ExhaustionContidion(Fibula.Common.Contracts.Enumerations.ConditionType, System.DateTimeOffset)
-  nameWithType: ExhaustionContidion.ExhaustionContidion(ConditionType, DateTimeOffset)
-- uid: Fibula.Mechanics.Conditions.ExhaustionContidion.#ctor*
-  name: ExhaustionContidion
-  href: code/Fibula.Mechanics.Conditions.ExhaustionContidion.html#Fibula_Mechanics_Conditions_ExhaustionContidion__ctor_
-  commentId: Overload:Fibula.Mechanics.Conditions.ExhaustionContidion.#ctor
+- uid: Fibula.Mechanics.Conditions.ConditionContext
+  name: ConditionContext
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html
+  commentId: T:Fibula.Mechanics.Conditions.ConditionContext
+  fullName: Fibula.Mechanics.Conditions.ConditionContext
+  nameWithType: ConditionContext
+- uid: Fibula.Mechanics.Conditions.ConditionContext.#ctor(Serilog.ILogger,Fibula.Map.Contracts.Abstractions.IMapDescriptor,Fibula.Map.Contracts.Abstractions.IMap,Fibula.Creatures.Contracts.Abstractions.ICreatureFinder,Fibula.Items.Contracts.Abstractions.IItemFactory,Fibula.Scheduling.Contracts.Abstractions.IScheduler)
+  name: ConditionContext(ILogger, IMapDescriptor, IMap, ICreatureFinder, IItemFactory, IScheduler)
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext__ctor_Serilog_ILogger_Fibula_Map_Contracts_Abstractions_IMapDescriptor_Fibula_Map_Contracts_Abstractions_IMap_Fibula_Creatures_Contracts_Abstractions_ICreatureFinder_Fibula_Items_Contracts_Abstractions_IItemFactory_Fibula_Scheduling_Contracts_Abstractions_IScheduler_
+  commentId: M:Fibula.Mechanics.Conditions.ConditionContext.#ctor(Serilog.ILogger,Fibula.Map.Contracts.Abstractions.IMapDescriptor,Fibula.Map.Contracts.Abstractions.IMap,Fibula.Creatures.Contracts.Abstractions.ICreatureFinder,Fibula.Items.Contracts.Abstractions.IItemFactory,Fibula.Scheduling.Contracts.Abstractions.IScheduler)
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.ConditionContext(Serilog.ILogger, Fibula.Map.Contracts.Abstractions.IMapDescriptor, Fibula.Map.Contracts.Abstractions.IMap, Fibula.Creatures.Contracts.Abstractions.ICreatureFinder, Fibula.Items.Contracts.Abstractions.IItemFactory, Fibula.Scheduling.Contracts.Abstractions.IScheduler)
+  nameWithType: ConditionContext.ConditionContext(ILogger, IMapDescriptor, IMap, ICreatureFinder, IItemFactory, IScheduler)
+- uid: Fibula.Mechanics.Conditions.ConditionContext.#ctor*
+  name: ConditionContext
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext__ctor_
+  commentId: Overload:Fibula.Mechanics.Conditions.ConditionContext.#ctor
   isSpec: "True"
-  fullName: Fibula.Mechanics.Conditions.ExhaustionContidion.ExhaustionContidion
-  nameWithType: ExhaustionContidion.ExhaustionContidion
-- uid: Fibula.Mechanics.Conditions.ExhaustionContidion.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
-  name: Pulse(IEventContext)
-  href: code/Fibula.Mechanics.Conditions.ExhaustionContidion.html#Fibula_Mechanics_Conditions_ExhaustionContidion_Pulse_Fibula_Scheduling_Contracts_Abstractions_IEventContext_
-  commentId: M:Fibula.Mechanics.Conditions.ExhaustionContidion.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
-  fullName: Fibula.Mechanics.Conditions.ExhaustionContidion.Pulse(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
-  nameWithType: ExhaustionContidion.Pulse(IEventContext)
-- uid: Fibula.Mechanics.Conditions.ExhaustionContidion.Pulse*
-  name: Pulse
-  href: code/Fibula.Mechanics.Conditions.ExhaustionContidion.html#Fibula_Mechanics_Conditions_ExhaustionContidion_Pulse_
-  commentId: Overload:Fibula.Mechanics.Conditions.ExhaustionContidion.Pulse
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.ConditionContext
+  nameWithType: ConditionContext.ConditionContext
+- uid: Fibula.Mechanics.Conditions.ConditionContext.CreatureFinder
+  name: CreatureFinder
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_CreatureFinder
+  commentId: P:Fibula.Mechanics.Conditions.ConditionContext.CreatureFinder
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.CreatureFinder
+  nameWithType: ConditionContext.CreatureFinder
+- uid: Fibula.Mechanics.Conditions.ConditionContext.CreatureFinder*
+  name: CreatureFinder
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_CreatureFinder_
+  commentId: Overload:Fibula.Mechanics.Conditions.ConditionContext.CreatureFinder
   isSpec: "True"
-  fullName: Fibula.Mechanics.Conditions.ExhaustionContidion.Pulse
-  nameWithType: ExhaustionContidion.Pulse
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.CreatureFinder
+  nameWithType: ConditionContext.CreatureFinder
+- uid: Fibula.Mechanics.Conditions.ConditionContext.ItemFactory
+  name: ItemFactory
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_ItemFactory
+  commentId: P:Fibula.Mechanics.Conditions.ConditionContext.ItemFactory
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.ItemFactory
+  nameWithType: ConditionContext.ItemFactory
+- uid: Fibula.Mechanics.Conditions.ConditionContext.ItemFactory*
+  name: ItemFactory
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_ItemFactory_
+  commentId: Overload:Fibula.Mechanics.Conditions.ConditionContext.ItemFactory
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.ItemFactory
+  nameWithType: ConditionContext.ItemFactory
+- uid: Fibula.Mechanics.Conditions.ConditionContext.Map
+  name: Map
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_Map
+  commentId: P:Fibula.Mechanics.Conditions.ConditionContext.Map
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.Map
+  nameWithType: ConditionContext.Map
+- uid: Fibula.Mechanics.Conditions.ConditionContext.Map*
+  name: Map
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_Map_
+  commentId: Overload:Fibula.Mechanics.Conditions.ConditionContext.Map
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.Map
+  nameWithType: ConditionContext.Map
+- uid: Fibula.Mechanics.Conditions.ConditionContext.MapDescriptor
+  name: MapDescriptor
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_MapDescriptor
+  commentId: P:Fibula.Mechanics.Conditions.ConditionContext.MapDescriptor
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.MapDescriptor
+  nameWithType: ConditionContext.MapDescriptor
+- uid: Fibula.Mechanics.Conditions.ConditionContext.MapDescriptor*
+  name: MapDescriptor
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_MapDescriptor_
+  commentId: Overload:Fibula.Mechanics.Conditions.ConditionContext.MapDescriptor
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.MapDescriptor
+  nameWithType: ConditionContext.MapDescriptor
+- uid: Fibula.Mechanics.Conditions.ConditionContext.Scheduler
+  name: Scheduler
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_Scheduler
+  commentId: P:Fibula.Mechanics.Conditions.ConditionContext.Scheduler
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.Scheduler
+  nameWithType: ConditionContext.Scheduler
+- uid: Fibula.Mechanics.Conditions.ConditionContext.Scheduler*
+  name: Scheduler
+  href: code/Fibula.Mechanics.Conditions.ConditionContext.html#Fibula_Mechanics_Conditions_ConditionContext_Scheduler_
+  commentId: Overload:Fibula.Mechanics.Conditions.ConditionContext.Scheduler
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ConditionContext.Scheduler
+  nameWithType: ConditionContext.Scheduler
+- uid: Fibula.Mechanics.Conditions.DecayingCondition
+  name: DecayingCondition
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html
+  commentId: T:Fibula.Mechanics.Conditions.DecayingCondition
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition
+  nameWithType: DecayingCondition
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.#ctor(Fibula.Items.Contracts.Abstractions.IItem)
+  name: DecayingCondition(IItem)
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition__ctor_Fibula_Items_Contracts_Abstractions_IItem_
+  commentId: M:Fibula.Mechanics.Conditions.DecayingCondition.#ctor(Fibula.Items.Contracts.Abstractions.IItem)
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.DecayingCondition(Fibula.Items.Contracts.Abstractions.IItem)
+  nameWithType: DecayingCondition.DecayingCondition(IItem)
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.#ctor*
+  name: DecayingCondition
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition__ctor_
+  commentId: Overload:Fibula.Mechanics.Conditions.DecayingCondition.#ctor
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.DecayingCondition
+  nameWithType: DecayingCondition.DecayingCondition
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  name: Aggregate(ICondition)
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition_Aggregate_Fibula_Common_Contracts_Abstractions_ICondition_
+  commentId: M:Fibula.Mechanics.Conditions.DecayingCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  nameWithType: DecayingCondition.Aggregate(ICondition)
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.Aggregate*
+  name: Aggregate
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition_Aggregate_
+  commentId: Overload:Fibula.Mechanics.Conditions.DecayingCondition.Aggregate
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.Aggregate
+  nameWithType: DecayingCondition.Aggregate
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  name: Execute(IConditionContext)
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition_Execute_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_
+  commentId: M:Fibula.Mechanics.Conditions.DecayingCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  nameWithType: DecayingCondition.Execute(IConditionContext)
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.Execute*
+  name: Execute
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition_Execute_
+  commentId: Overload:Fibula.Mechanics.Conditions.DecayingCondition.Execute
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.Execute
+  nameWithType: DecayingCondition.Execute
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.Item
+  name: Item
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition_Item
+  commentId: P:Fibula.Mechanics.Conditions.DecayingCondition.Item
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.Item
+  nameWithType: DecayingCondition.Item
+- uid: Fibula.Mechanics.Conditions.DecayingCondition.Item*
+  name: Item
+  href: code/Fibula.Mechanics.Conditions.DecayingCondition.html#Fibula_Mechanics_Conditions_DecayingCondition_Item_
+  commentId: Overload:Fibula.Mechanics.Conditions.DecayingCondition.Item
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.DecayingCondition.Item
+  nameWithType: DecayingCondition.Item
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition
+  name: ExhaustionCondition
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html
+  commentId: T:Fibula.Mechanics.Conditions.ExhaustionCondition
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition
+  nameWithType: ExhaustionCondition
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.#ctor(Fibula.Common.Contracts.Enumerations.ExhaustionType,System.DateTimeOffset)
+  name: ExhaustionCondition(ExhaustionType, DateTimeOffset)
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition__ctor_Fibula_Common_Contracts_Enumerations_ExhaustionType_System_DateTimeOffset_
+  commentId: M:Fibula.Mechanics.Conditions.ExhaustionCondition.#ctor(Fibula.Common.Contracts.Enumerations.ExhaustionType,System.DateTimeOffset)
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionCondition(Fibula.Common.Contracts.Enumerations.ExhaustionType, System.DateTimeOffset)
+  nameWithType: ExhaustionCondition.ExhaustionCondition(ExhaustionType, DateTimeOffset)
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.#ctor*
+  name: ExhaustionCondition
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition__ctor_
+  commentId: Overload:Fibula.Mechanics.Conditions.ExhaustionCondition.#ctor
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionCondition
+  nameWithType: ExhaustionCondition.ExhaustionCondition
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  name: Aggregate(ICondition)
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition_Aggregate_Fibula_Common_Contracts_Abstractions_ICondition_
+  commentId: M:Fibula.Mechanics.Conditions.ExhaustionCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  nameWithType: ExhaustionCondition.Aggregate(ICondition)
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.Aggregate*
+  name: Aggregate
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition_Aggregate_
+  commentId: Overload:Fibula.Mechanics.Conditions.ExhaustionCondition.Aggregate
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.Aggregate
+  nameWithType: ExhaustionCondition.Aggregate
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  name: Execute(IConditionContext)
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition_Execute_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_
+  commentId: M:Fibula.Mechanics.Conditions.ExhaustionCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  nameWithType: ExhaustionCondition.Execute(IConditionContext)
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.Execute*
+  name: Execute
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition_Execute_
+  commentId: Overload:Fibula.Mechanics.Conditions.ExhaustionCondition.Execute
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.Execute
+  nameWithType: ExhaustionCondition.Execute
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionTimesPerType
+  name: ExhaustionTimesPerType
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition_ExhaustionTimesPerType
+  commentId: P:Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionTimesPerType
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionTimesPerType
+  nameWithType: ExhaustionCondition.ExhaustionTimesPerType
+- uid: Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionTimesPerType*
+  name: ExhaustionTimesPerType
+  href: code/Fibula.Mechanics.Conditions.ExhaustionCondition.html#Fibula_Mechanics_Conditions_ExhaustionCondition_ExhaustionTimesPerType_
+  commentId: Overload:Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionTimesPerType
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.ExhaustionCondition.ExhaustionTimesPerType
+  nameWithType: ExhaustionCondition.ExhaustionTimesPerType
+- uid: Fibula.Mechanics.Conditions.InFightCondition
+  name: InFightCondition
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html
+  commentId: T:Fibula.Mechanics.Conditions.InFightCondition
+  fullName: Fibula.Mechanics.Conditions.InFightCondition
+  nameWithType: InFightCondition
+- uid: Fibula.Mechanics.Conditions.InFightCondition.#ctor(Fibula.Creatures.Contracts.Abstractions.IPlayer)
+  name: InFightCondition(IPlayer)
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition__ctor_Fibula_Creatures_Contracts_Abstractions_IPlayer_
+  commentId: M:Fibula.Mechanics.Conditions.InFightCondition.#ctor(Fibula.Creatures.Contracts.Abstractions.IPlayer)
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.InFightCondition(Fibula.Creatures.Contracts.Abstractions.IPlayer)
+  nameWithType: InFightCondition.InFightCondition(IPlayer)
+- uid: Fibula.Mechanics.Conditions.InFightCondition.#ctor*
+  name: InFightCondition
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition__ctor_
+  commentId: Overload:Fibula.Mechanics.Conditions.InFightCondition.#ctor
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.InFightCondition
+  nameWithType: InFightCondition.InFightCondition
+- uid: Fibula.Mechanics.Conditions.InFightCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  name: Aggregate(ICondition)
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition_Aggregate_Fibula_Common_Contracts_Abstractions_ICondition_
+  commentId: M:Fibula.Mechanics.Conditions.InFightCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.Aggregate(Fibula.Common.Contracts.Abstractions.ICondition)
+  nameWithType: InFightCondition.Aggregate(ICondition)
+- uid: Fibula.Mechanics.Conditions.InFightCondition.Aggregate*
+  name: Aggregate
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition_Aggregate_
+  commentId: Overload:Fibula.Mechanics.Conditions.InFightCondition.Aggregate
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.Aggregate
+  nameWithType: InFightCondition.Aggregate
+- uid: Fibula.Mechanics.Conditions.InFightCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  name: Execute(IConditionContext)
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition_Execute_Fibula_Mechanics_Contracts_Abstractions_IConditionContext_
+  commentId: M:Fibula.Mechanics.Conditions.InFightCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.Execute(Fibula.Mechanics.Contracts.Abstractions.IConditionContext)
+  nameWithType: InFightCondition.Execute(IConditionContext)
+- uid: Fibula.Mechanics.Conditions.InFightCondition.Execute*
+  name: Execute
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition_Execute_
+  commentId: Overload:Fibula.Mechanics.Conditions.InFightCondition.Execute
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.Execute
+  nameWithType: InFightCondition.Execute
+- uid: Fibula.Mechanics.Conditions.InFightCondition.Player
+  name: Player
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition_Player
+  commentId: P:Fibula.Mechanics.Conditions.InFightCondition.Player
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.Player
+  nameWithType: InFightCondition.Player
+- uid: Fibula.Mechanics.Conditions.InFightCondition.Player*
+  name: Player
+  href: code/Fibula.Mechanics.Conditions.InFightCondition.html#Fibula_Mechanics_Conditions_InFightCondition_Player_
+  commentId: Overload:Fibula.Mechanics.Conditions.InFightCondition.Player
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Conditions.InFightCondition.Player
+  nameWithType: InFightCondition.Player
 - uid: Fibula.Mechanics.ContainerManager
   name: ContainerManager
   href: code/Fibula.Mechanics.ContainerManager.html
@@ -20385,6 +20763,19 @@ references:
   commentId: T:Fibula.Mechanics.Contracts.Abstractions.ICombatant
   fullName: Fibula.Mechanics.Contracts.Abstractions.ICombatant
   nameWithType: ICombatant
+- uid: Fibula.Mechanics.Contracts.Abstractions.ICombatant.AddExperience(System.Int64)
+  name: AddExperience(Int64)
+  href: code/Fibula.Mechanics.Contracts.Abstractions.ICombatant.html#Fibula_Mechanics_Contracts_Abstractions_ICombatant_AddExperience_System_Int64_
+  commentId: M:Fibula.Mechanics.Contracts.Abstractions.ICombatant.AddExperience(System.Int64)
+  fullName: Fibula.Mechanics.Contracts.Abstractions.ICombatant.AddExperience(System.Int64)
+  nameWithType: ICombatant.AddExperience(Int64)
+- uid: Fibula.Mechanics.Contracts.Abstractions.ICombatant.AddExperience*
+  name: AddExperience
+  href: code/Fibula.Mechanics.Contracts.Abstractions.ICombatant.html#Fibula_Mechanics_Contracts_Abstractions_ICombatant_AddExperience_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.ICombatant.AddExperience
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Abstractions.ICombatant.AddExperience
+  nameWithType: ICombatant.AddExperience
 - uid: Fibula.Mechanics.Contracts.Abstractions.ICombatant.AddToCombatList(Fibula.Mechanics.Contracts.Abstractions.ICombatant)
   name: AddToCombatList(ICombatant)
   href: code/Fibula.Mechanics.Contracts.Abstractions.ICombatant.html#Fibula_Mechanics_Contracts_Abstractions_ICombatant_AddToCombatList_Fibula_Mechanics_Contracts_Abstractions_ICombatant_
@@ -20773,6 +21164,77 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Contracts.Abstractions.ICombatOperationsApi.SetCombatantModes
   nameWithType: ICombatOperationsApi.SetCombatantModes
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext
+  name: IConditionContext
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html
+  commentId: T:Fibula.Mechanics.Contracts.Abstractions.IConditionContext
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext
+  nameWithType: IConditionContext
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.CreatureFinder
+  name: CreatureFinder
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_CreatureFinder
+  commentId: P:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.CreatureFinder
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.CreatureFinder
+  nameWithType: IConditionContext.CreatureFinder
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.CreatureFinder*
+  name: CreatureFinder
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_CreatureFinder_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.CreatureFinder
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.CreatureFinder
+  nameWithType: IConditionContext.CreatureFinder
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.ItemFactory
+  name: ItemFactory
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_ItemFactory
+  commentId: P:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.ItemFactory
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.ItemFactory
+  nameWithType: IConditionContext.ItemFactory
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.ItemFactory*
+  name: ItemFactory
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_ItemFactory_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.ItemFactory
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.ItemFactory
+  nameWithType: IConditionContext.ItemFactory
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Map
+  name: Map
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Map
+  commentId: P:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Map
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Map
+  nameWithType: IConditionContext.Map
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Map*
+  name: Map
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Map_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Map
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Map
+  nameWithType: IConditionContext.Map
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.MapDescriptor
+  name: MapDescriptor
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_MapDescriptor
+  commentId: P:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.MapDescriptor
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.MapDescriptor
+  nameWithType: IConditionContext.MapDescriptor
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.MapDescriptor*
+  name: MapDescriptor
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_MapDescriptor_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.MapDescriptor
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.MapDescriptor
+  nameWithType: IConditionContext.MapDescriptor
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Scheduler
+  name: Scheduler
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Scheduler
+  commentId: P:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Scheduler
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Scheduler
+  nameWithType: IConditionContext.Scheduler
+- uid: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Scheduler*
+  name: Scheduler
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IConditionContext.html#Fibula_Mechanics_Contracts_Abstractions_IConditionContext_Scheduler_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Scheduler
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IConditionContext.Scheduler
+  nameWithType: IConditionContext.Scheduler
 - uid: Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers
   name: ICreatureThatSensesOthers
   href: code/Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.html
@@ -20924,6 +21386,19 @@ references:
   commentId: T:Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi
   fullName: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi
   nameWithType: IGameOperationsApi
+- uid: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.AddOrAggregateCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Abstractions.ICondition,System.TimeSpan)
+  name: AddOrAggregateCondition(IThing, ICondition, TimeSpan)
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.html#Fibula_Mechanics_Contracts_Abstractions_IGameOperationsApi_AddOrAggregateCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Abstractions_ICondition_System_TimeSpan_
+  commentId: M:Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.AddOrAggregateCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Abstractions.ICondition,System.TimeSpan)
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.AddOrAggregateCondition(Fibula.Common.Contracts.Abstractions.IThing, Fibula.Common.Contracts.Abstractions.ICondition, System.TimeSpan)
+  nameWithType: IGameOperationsApi.AddOrAggregateCondition(IThing, ICondition, TimeSpan)
+- uid: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.AddOrAggregateCondition*
+  name: AddOrAggregateCondition
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.html#Fibula_Mechanics_Contracts_Abstractions_IGameOperationsApi_AddOrAggregateCondition_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.AddOrAggregateCondition
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.AddOrAggregateCondition
+  nameWithType: IGameOperationsApi.AddOrAggregateCondition
 - uid: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.AfterThingLocationChanged(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Structs.Location)
   name: AfterThingLocationChanged(IThing, Location)
   href: code/Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.html#Fibula_Mechanics_Contracts_Abstractions_IGameOperationsApi_AfterThingLocationChanged_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Structs_Location_
@@ -21134,12 +21609,15 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SendHeartbeatResponse
   nameWithType: IGameOperationsApi.SendHeartbeatResponse
-- uid: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte)
-  name: SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte)
-  href: code/Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.html#Fibula_Mechanics_Contracts_Abstractions_IGameOperationsApi_SkilledCreatureSkillChanged_Fibula_Mechanics_Contracts_Abstractions_ICreatureWithSkills_Fibula_Mechanics_Contracts_Abstractions_ISkill_System_UInt32_System_Byte_
-  commentId: M:Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte)
-  fullName: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills, Fibula.Mechanics.Contracts.Abstractions.ISkill, System.UInt32, System.Byte)
-  nameWithType: IGameOperationsApi.SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte)
+- uid: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte,System.Nullable{System.Int64})
+  name: SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable<Int64>)
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.html#Fibula_Mechanics_Contracts_Abstractions_IGameOperationsApi_SkilledCreatureSkillChanged_Fibula_Mechanics_Contracts_Abstractions_ICreatureWithSkills_Fibula_Mechanics_Contracts_Abstractions_ISkill_System_UInt32_System_Byte_System_Nullable_System_Int64__
+  commentId: M:Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte,System.Nullable{System.Int64})
+  name.vb: SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable(Of Int64))
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills, Fibula.Mechanics.Contracts.Abstractions.ISkill, System.UInt32, System.Byte, System.Nullable<System.Int64>)
+  fullName.vb: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills, Fibula.Mechanics.Contracts.Abstractions.ISkill, System.UInt32, System.Byte, System.Nullable(Of System.Int64))
+  nameWithType: IGameOperationsApi.SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable<Int64>)
+  nameWithType.vb: IGameOperationsApi.SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable(Of Int64))
 - uid: Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.SkilledCreatureSkillChanged*
   name: SkilledCreatureSkillChanged
   href: code/Fibula.Mechanics.Contracts.Abstractions.IGameOperationsApi.html#Fibula_Mechanics_Contracts_Abstractions_IGameOperationsApi_SkilledCreatureSkillChanged_
@@ -21261,19 +21739,19 @@ references:
   commentId: T:Fibula.Mechanics.Contracts.Abstractions.IOperation
   fullName: Fibula.Mechanics.Contracts.Abstractions.IOperation
   nameWithType: IOperation
-- uid: Fibula.Mechanics.Contracts.Abstractions.IOperation.AssociatedExhaustion
-  name: AssociatedExhaustion
-  href: code/Fibula.Mechanics.Contracts.Abstractions.IOperation.html#Fibula_Mechanics_Contracts_Abstractions_IOperation_AssociatedExhaustion
-  commentId: P:Fibula.Mechanics.Contracts.Abstractions.IOperation.AssociatedExhaustion
-  fullName: Fibula.Mechanics.Contracts.Abstractions.IOperation.AssociatedExhaustion
-  nameWithType: IOperation.AssociatedExhaustion
-- uid: Fibula.Mechanics.Contracts.Abstractions.IOperation.AssociatedExhaustion*
-  name: AssociatedExhaustion
-  href: code/Fibula.Mechanics.Contracts.Abstractions.IOperation.html#Fibula_Mechanics_Contracts_Abstractions_IOperation_AssociatedExhaustion_
-  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IOperation.AssociatedExhaustion
+- uid: Fibula.Mechanics.Contracts.Abstractions.IOperation.ExhaustionInfo
+  name: ExhaustionInfo
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IOperation.html#Fibula_Mechanics_Contracts_Abstractions_IOperation_ExhaustionInfo
+  commentId: P:Fibula.Mechanics.Contracts.Abstractions.IOperation.ExhaustionInfo
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IOperation.ExhaustionInfo
+  nameWithType: IOperation.ExhaustionInfo
+- uid: Fibula.Mechanics.Contracts.Abstractions.IOperation.ExhaustionInfo*
+  name: ExhaustionInfo
+  href: code/Fibula.Mechanics.Contracts.Abstractions.IOperation.html#Fibula_Mechanics_Contracts_Abstractions_IOperation_ExhaustionInfo_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.IOperation.ExhaustionInfo
   isSpec: "True"
-  fullName: Fibula.Mechanics.Contracts.Abstractions.IOperation.AssociatedExhaustion
-  nameWithType: IOperation.AssociatedExhaustion
+  fullName: Fibula.Mechanics.Contracts.Abstractions.IOperation.ExhaustionInfo
+  nameWithType: IOperation.ExhaustionInfo
 - uid: Fibula.Mechanics.Contracts.Abstractions.IOperationContext
   name: IOperationContext
   href: code/Fibula.Mechanics.Contracts.Abstractions.IOperationContext.html
@@ -21561,19 +22039,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Contracts.Abstractions.ISkill.Rate
   nameWithType: ISkill.Rate
-- uid: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCountAtLevel
-  name: StartingCountAtLevel
-  href: code/Fibula.Mechanics.Contracts.Abstractions.ISkill.html#Fibula_Mechanics_Contracts_Abstractions_ISkill_StartingCountAtLevel
-  commentId: P:Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCountAtLevel
-  fullName: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCountAtLevel
-  nameWithType: ISkill.StartingCountAtLevel
-- uid: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCountAtLevel*
-  name: StartingCountAtLevel
-  href: code/Fibula.Mechanics.Contracts.Abstractions.ISkill.html#Fibula_Mechanics_Contracts_Abstractions_ISkill_StartingCountAtLevel_
-  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCountAtLevel
+- uid: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCount
+  name: StartingCount
+  href: code/Fibula.Mechanics.Contracts.Abstractions.ISkill.html#Fibula_Mechanics_Contracts_Abstractions_ISkill_StartingCount
+  commentId: P:Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCount
+  fullName: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCount
+  nameWithType: ISkill.StartingCount
+- uid: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCount*
+  name: StartingCount
+  href: code/Fibula.Mechanics.Contracts.Abstractions.ISkill.html#Fibula_Mechanics_Contracts_Abstractions_ISkill_StartingCount_
+  commentId: Overload:Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCount
   isSpec: "True"
-  fullName: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCountAtLevel
-  nameWithType: ISkill.StartingCountAtLevel
+  fullName: Fibula.Mechanics.Contracts.Abstractions.ISkill.StartingCount
+  nameWithType: ISkill.StartingCount
 - uid: Fibula.Mechanics.Contracts.Abstractions.ISkill.TargetCount
   name: TargetCount
   href: code/Fibula.Mechanics.Contracts.Abstractions.ISkill.html#Fibula_Mechanics_Contracts_Abstractions_ISkill_TargetCount
@@ -21675,6 +22153,12 @@ references:
   commentId: F:Fibula.Mechanics.Contracts.Constants.CombatConstants.DefaultDefenseSpeed
   fullName: Fibula.Mechanics.Contracts.Constants.CombatConstants.DefaultDefenseSpeed
   nameWithType: CombatConstants.DefaultDefenseSpeed
+- uid: Fibula.Mechanics.Contracts.Constants.CombatConstants.DefaultInFightTimeInMs
+  name: DefaultInFightTimeInMs
+  href: code/Fibula.Mechanics.Contracts.Constants.CombatConstants.html#Fibula_Mechanics_Contracts_Constants_CombatConstants_DefaultInFightTimeInMs
+  commentId: F:Fibula.Mechanics.Contracts.Constants.CombatConstants.DefaultInFightTimeInMs
+  fullName: Fibula.Mechanics.Contracts.Constants.CombatConstants.DefaultInFightTimeInMs
+  nameWithType: CombatConstants.DefaultInFightTimeInMs
 - uid: Fibula.Mechanics.Contracts.Constants.CombatConstants.DefaultMaximumAttackCredits
   name: DefaultMaximumAttackCredits
   href: code/Fibula.Mechanics.Contracts.Constants.CombatConstants.html#Fibula_Mechanics_Contracts_Constants_CombatConstants_DefaultMaximumAttackCredits
@@ -22029,32 +22513,45 @@ references:
   commentId: T:Fibula.Mechanics.Contracts.Extensions.ThingExtensions
   fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions
   nameWithType: ThingExtensions
-- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.AddOrExtendCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Abstractions.ICondition)
-  name: AddOrExtendCondition(IThing, ICondition)
-  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_AddOrExtendCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Abstractions_ICondition_
-  commentId: M:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.AddOrExtendCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Abstractions.ICondition)
-  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.AddOrExtendCondition(Fibula.Common.Contracts.Abstractions.IThing, Fibula.Common.Contracts.Abstractions.ICondition)
-  nameWithType: ThingExtensions.AddOrExtendCondition(IThing, ICondition)
-- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.AddOrExtendCondition*
-  name: AddOrExtendCondition
-  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_AddOrExtendCondition_
-  commentId: Overload:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.AddOrExtendCondition
+- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.HasCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ConditionType)
+  name: HasCondition(IThing, ConditionType)
+  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_HasCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ConditionType_
+  commentId: M:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.HasCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ConditionType)
+  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.HasCondition(Fibula.Common.Contracts.Abstractions.IThing, Fibula.Common.Contracts.Enumerations.ConditionType)
+  nameWithType: ThingExtensions.HasCondition(IThing, ConditionType)
+- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.HasCondition*
+  name: HasCondition
+  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_HasCondition_
+  commentId: Overload:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.HasCondition
   isSpec: "True"
-  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.AddOrExtendCondition
-  nameWithType: ThingExtensions.AddOrExtendCondition
-- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingCooldownTime(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ConditionType,System.DateTimeOffset)
-  name: RemainingCooldownTime(IThing, ConditionType, DateTimeOffset)
-  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingCooldownTime_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ConditionType_System_DateTimeOffset_
-  commentId: M:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingCooldownTime(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ConditionType,System.DateTimeOffset)
-  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingCooldownTime(Fibula.Common.Contracts.Abstractions.IThing, Fibula.Common.Contracts.Enumerations.ConditionType, System.DateTimeOffset)
-  nameWithType: ThingExtensions.RemainingCooldownTime(IThing, ConditionType, DateTimeOffset)
-- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingCooldownTime*
-  name: RemainingCooldownTime
-  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingCooldownTime_
-  commentId: Overload:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingCooldownTime
+  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.HasCondition
+  nameWithType: ThingExtensions.HasCondition
+- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.IsExhausted(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ExhaustionType)
+  name: IsExhausted(IThing, ExhaustionType)
+  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_IsExhausted_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ExhaustionType_
+  commentId: M:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.IsExhausted(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ExhaustionType)
+  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.IsExhausted(Fibula.Common.Contracts.Abstractions.IThing, Fibula.Common.Contracts.Enumerations.ExhaustionType)
+  nameWithType: ThingExtensions.IsExhausted(IThing, ExhaustionType)
+- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.IsExhausted*
+  name: IsExhausted
+  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_IsExhausted_
+  commentId: Overload:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.IsExhausted
   isSpec: "True"
-  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingCooldownTime
-  nameWithType: ThingExtensions.RemainingCooldownTime
+  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.IsExhausted
+  nameWithType: ThingExtensions.IsExhausted
+- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingExhaustionTime(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ExhaustionType,System.DateTimeOffset)
+  name: RemainingExhaustionTime(IThing, ExhaustionType, DateTimeOffset)
+  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingExhaustionTime_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ExhaustionType_System_DateTimeOffset_
+  commentId: M:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingExhaustionTime(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Enumerations.ExhaustionType,System.DateTimeOffset)
+  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingExhaustionTime(Fibula.Common.Contracts.Abstractions.IThing, Fibula.Common.Contracts.Enumerations.ExhaustionType, System.DateTimeOffset)
+  nameWithType: ThingExtensions.RemainingExhaustionTime(IThing, ExhaustionType, DateTimeOffset)
+- uid: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingExhaustionTime*
+  name: RemainingExhaustionTime
+  href: code/Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingExhaustionTime_
+  commentId: Overload:Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingExhaustionTime
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Contracts.Extensions.ThingExtensions.RemainingExhaustionTime
+  nameWithType: ThingExtensions.RemainingExhaustionTime
 - uid: Fibula.Mechanics.Contracts.Structs
   name: Fibula.Mechanics.Contracts.Structs
   href: code/Fibula.Mechanics.Contracts.Structs.html
@@ -22164,6 +22661,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Game.Game
   nameWithType: Game.Game
+- uid: Fibula.Mechanics.Game.AddOrAggregateCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Abstractions.ICondition,System.TimeSpan)
+  name: AddOrAggregateCondition(IThing, ICondition, TimeSpan)
+  href: code/Fibula.Mechanics.Game.html#Fibula_Mechanics_Game_AddOrAggregateCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Abstractions_ICondition_System_TimeSpan_
+  commentId: M:Fibula.Mechanics.Game.AddOrAggregateCondition(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Abstractions.ICondition,System.TimeSpan)
+  fullName: Fibula.Mechanics.Game.AddOrAggregateCondition(Fibula.Common.Contracts.Abstractions.IThing, Fibula.Common.Contracts.Abstractions.ICondition, System.TimeSpan)
+  nameWithType: Game.AddOrAggregateCondition(IThing, ICondition, TimeSpan)
+- uid: Fibula.Mechanics.Game.AddOrAggregateCondition*
+  name: AddOrAggregateCondition
+  href: code/Fibula.Mechanics.Game.html#Fibula_Mechanics_Game_AddOrAggregateCondition_
+  commentId: Overload:Fibula.Mechanics.Game.AddOrAggregateCondition
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Game.AddOrAggregateCondition
+  nameWithType: Game.AddOrAggregateCondition
 - uid: Fibula.Mechanics.Game.AfterThingLocationChanged(Fibula.Common.Contracts.Abstractions.IThing,Fibula.Common.Contracts.Structs.Location)
   name: AfterThingLocationChanged(IThing, Location)
   href: code/Fibula.Mechanics.Game.html#Fibula_Mechanics_Game_AfterThingLocationChanged_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Structs_Location_
@@ -22478,12 +22988,15 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Game.SetCombatantModes
   nameWithType: Game.SetCombatantModes
-- uid: Fibula.Mechanics.Game.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte)
-  name: SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte)
-  href: code/Fibula.Mechanics.Game.html#Fibula_Mechanics_Game_SkilledCreatureSkillChanged_Fibula_Mechanics_Contracts_Abstractions_ICreatureWithSkills_Fibula_Mechanics_Contracts_Abstractions_ISkill_System_UInt32_System_Byte_
-  commentId: M:Fibula.Mechanics.Game.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte)
-  fullName: Fibula.Mechanics.Game.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills, Fibula.Mechanics.Contracts.Abstractions.ISkill, System.UInt32, System.Byte)
-  nameWithType: Game.SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte)
+- uid: Fibula.Mechanics.Game.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte,System.Nullable{System.Int64})
+  name: SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable<Int64>)
+  href: code/Fibula.Mechanics.Game.html#Fibula_Mechanics_Game_SkilledCreatureSkillChanged_Fibula_Mechanics_Contracts_Abstractions_ICreatureWithSkills_Fibula_Mechanics_Contracts_Abstractions_ISkill_System_UInt32_System_Byte_System_Nullable_System_Int64__
+  commentId: M:Fibula.Mechanics.Game.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills,Fibula.Mechanics.Contracts.Abstractions.ISkill,System.UInt32,System.Byte,System.Nullable{System.Int64})
+  name.vb: SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable(Of Int64))
+  fullName: Fibula.Mechanics.Game.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills, Fibula.Mechanics.Contracts.Abstractions.ISkill, System.UInt32, System.Byte, System.Nullable<System.Int64>)
+  fullName.vb: Fibula.Mechanics.Game.SkilledCreatureSkillChanged(Fibula.Mechanics.Contracts.Abstractions.ICreatureWithSkills, Fibula.Mechanics.Contracts.Abstractions.ISkill, System.UInt32, System.Byte, System.Nullable(Of System.Int64))
+  nameWithType: Game.SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable<Int64>)
+  nameWithType.vb: Game.SkilledCreatureSkillChanged(ICreatureWithSkills, ISkill, UInt32, Byte, Nullable(Of Int64))
 - uid: Fibula.Mechanics.Game.SkilledCreatureSkillChanged*
   name: SkilledCreatureSkillChanged
   href: code/Fibula.Mechanics.Game.html#Fibula_Mechanics_Game_SkilledCreatureSkillChanged_
@@ -23757,6 +24270,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Notifications.Notification.CanBeCancelled
   nameWithType: Notification.CanBeCancelled
+- uid: Fibula.Mechanics.Notifications.Notification.EventType
+  name: EventType
+  href: code/Fibula.Mechanics.Notifications.Notification.html#Fibula_Mechanics_Notifications_Notification_EventType
+  commentId: P:Fibula.Mechanics.Notifications.Notification.EventType
+  fullName: Fibula.Mechanics.Notifications.Notification.EventType
+  nameWithType: Notification.EventType
+- uid: Fibula.Mechanics.Notifications.Notification.EventType*
+  name: EventType
+  href: code/Fibula.Mechanics.Notifications.Notification.html#Fibula_Mechanics_Notifications_Notification_EventType_
+  commentId: Overload:Fibula.Mechanics.Notifications.Notification.EventType
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Notifications.Notification.EventType
+  nameWithType: Notification.EventType
 - uid: Fibula.Mechanics.Notifications.Notification.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)
   name: Execute(IEventContext)
   href: code/Fibula.Mechanics.Notifications.Notification.html#Fibula_Mechanics_Notifications_Notification_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_
@@ -24619,12 +25145,12 @@ references:
   commentId: T:Fibula.Mechanics.Operations.DeleteItemOperation
   fullName: Fibula.Mechanics.Operations.DeleteItemOperation
   nameWithType: DeleteItemOperation
-- uid: Fibula.Mechanics.Operations.DeleteItemOperation.#ctor(System.UInt32,System.UInt16,Fibula.Common.Contracts.Structs.Location)
-  name: DeleteItemOperation(UInt32, UInt16, Location)
-  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation__ctor_System_UInt32_System_UInt16_Fibula_Common_Contracts_Structs_Location_
-  commentId: M:Fibula.Mechanics.Operations.DeleteItemOperation.#ctor(System.UInt32,System.UInt16,Fibula.Common.Contracts.Structs.Location)
-  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.DeleteItemOperation(System.UInt32, System.UInt16, Fibula.Common.Contracts.Structs.Location)
-  nameWithType: DeleteItemOperation.DeleteItemOperation(UInt32, UInt16, Location)
+- uid: Fibula.Mechanics.Operations.DeleteItemOperation.#ctor(System.UInt32,Fibula.Items.Contracts.Abstractions.IItem)
+  name: DeleteItemOperation(UInt32, IItem)
+  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation__ctor_System_UInt32_Fibula_Items_Contracts_Abstractions_IItem_
+  commentId: M:Fibula.Mechanics.Operations.DeleteItemOperation.#ctor(System.UInt32,Fibula.Items.Contracts.Abstractions.IItem)
+  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.DeleteItemOperation(System.UInt32, Fibula.Items.Contracts.Abstractions.IItem)
+  nameWithType: DeleteItemOperation.DeleteItemOperation(UInt32, IItem)
 - uid: Fibula.Mechanics.Operations.DeleteItemOperation.#ctor*
   name: DeleteItemOperation
   href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation__ctor_
@@ -24632,19 +25158,6 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Operations.DeleteItemOperation.DeleteItemOperation
   nameWithType: DeleteItemOperation.DeleteItemOperation
-- uid: Fibula.Mechanics.Operations.DeleteItemOperation.AtLocation
-  name: AtLocation
-  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation_AtLocation
-  commentId: P:Fibula.Mechanics.Operations.DeleteItemOperation.AtLocation
-  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.AtLocation
-  nameWithType: DeleteItemOperation.AtLocation
-- uid: Fibula.Mechanics.Operations.DeleteItemOperation.AtLocation*
-  name: AtLocation
-  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation_AtLocation_
-  commentId: Overload:Fibula.Mechanics.Operations.DeleteItemOperation.AtLocation
-  isSpec: "True"
-  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.AtLocation
-  nameWithType: DeleteItemOperation.AtLocation
 - uid: Fibula.Mechanics.Operations.DeleteItemOperation.Execute(Fibula.Mechanics.Contracts.Abstractions.IElevatedOperationContext)
   name: Execute(IElevatedOperationContext)
   href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation_Execute_Fibula_Mechanics_Contracts_Abstractions_IElevatedOperationContext_
@@ -24658,19 +25171,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Operations.DeleteItemOperation.Execute
   nameWithType: DeleteItemOperation.Execute
-- uid: Fibula.Mechanics.Operations.DeleteItemOperation.TypeId
-  name: TypeId
-  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation_TypeId
-  commentId: P:Fibula.Mechanics.Operations.DeleteItemOperation.TypeId
-  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.TypeId
-  nameWithType: DeleteItemOperation.TypeId
-- uid: Fibula.Mechanics.Operations.DeleteItemOperation.TypeId*
-  name: TypeId
-  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation_TypeId_
-  commentId: Overload:Fibula.Mechanics.Operations.DeleteItemOperation.TypeId
+- uid: Fibula.Mechanics.Operations.DeleteItemOperation.Item
+  name: Item
+  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation_Item
+  commentId: P:Fibula.Mechanics.Operations.DeleteItemOperation.Item
+  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.Item
+  nameWithType: DeleteItemOperation.Item
+- uid: Fibula.Mechanics.Operations.DeleteItemOperation.Item*
+  name: Item
+  href: code/Fibula.Mechanics.Operations.DeleteItemOperation.html#Fibula_Mechanics_Operations_DeleteItemOperation_Item_
+  commentId: Overload:Fibula.Mechanics.Operations.DeleteItemOperation.Item
   isSpec: "True"
-  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.TypeId
-  nameWithType: DeleteItemOperation.TypeId
+  fullName: Fibula.Mechanics.Operations.DeleteItemOperation.Item
+  nameWithType: DeleteItemOperation.Item
 - uid: Fibula.Mechanics.Operations.ElevatedOperation
   name: ElevatedOperation
   href: code/Fibula.Mechanics.Operations.ElevatedOperation.html
@@ -24754,51 +25267,6 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Operations.ElevatedOperationContext.CreatureManager
   nameWithType: ElevatedOperationContext.CreatureManager
-- uid: Fibula.Mechanics.Operations.ExpireItemOperation
-  name: ExpireItemOperation
-  href: code/Fibula.Mechanics.Operations.ExpireItemOperation.html
-  commentId: T:Fibula.Mechanics.Operations.ExpireItemOperation
-  fullName: Fibula.Mechanics.Operations.ExpireItemOperation
-  nameWithType: ExpireItemOperation
-- uid: Fibula.Mechanics.Operations.ExpireItemOperation.#ctor(System.UInt32,Fibula.Items.Contracts.Abstractions.IItem)
-  name: ExpireItemOperation(UInt32, IItem)
-  href: code/Fibula.Mechanics.Operations.ExpireItemOperation.html#Fibula_Mechanics_Operations_ExpireItemOperation__ctor_System_UInt32_Fibula_Items_Contracts_Abstractions_IItem_
-  commentId: M:Fibula.Mechanics.Operations.ExpireItemOperation.#ctor(System.UInt32,Fibula.Items.Contracts.Abstractions.IItem)
-  fullName: Fibula.Mechanics.Operations.ExpireItemOperation.ExpireItemOperation(System.UInt32, Fibula.Items.Contracts.Abstractions.IItem)
-  nameWithType: ExpireItemOperation.ExpireItemOperation(UInt32, IItem)
-- uid: Fibula.Mechanics.Operations.ExpireItemOperation.#ctor*
-  name: ExpireItemOperation
-  href: code/Fibula.Mechanics.Operations.ExpireItemOperation.html#Fibula_Mechanics_Operations_ExpireItemOperation__ctor_
-  commentId: Overload:Fibula.Mechanics.Operations.ExpireItemOperation.#ctor
-  isSpec: "True"
-  fullName: Fibula.Mechanics.Operations.ExpireItemOperation.ExpireItemOperation
-  nameWithType: ExpireItemOperation.ExpireItemOperation
-- uid: Fibula.Mechanics.Operations.ExpireItemOperation.Execute(Fibula.Mechanics.Contracts.Abstractions.IElevatedOperationContext)
-  name: Execute(IElevatedOperationContext)
-  href: code/Fibula.Mechanics.Operations.ExpireItemOperation.html#Fibula_Mechanics_Operations_ExpireItemOperation_Execute_Fibula_Mechanics_Contracts_Abstractions_IElevatedOperationContext_
-  commentId: M:Fibula.Mechanics.Operations.ExpireItemOperation.Execute(Fibula.Mechanics.Contracts.Abstractions.IElevatedOperationContext)
-  fullName: Fibula.Mechanics.Operations.ExpireItemOperation.Execute(Fibula.Mechanics.Contracts.Abstractions.IElevatedOperationContext)
-  nameWithType: ExpireItemOperation.Execute(IElevatedOperationContext)
-- uid: Fibula.Mechanics.Operations.ExpireItemOperation.Execute*
-  name: Execute
-  href: code/Fibula.Mechanics.Operations.ExpireItemOperation.html#Fibula_Mechanics_Operations_ExpireItemOperation_Execute_
-  commentId: Overload:Fibula.Mechanics.Operations.ExpireItemOperation.Execute
-  isSpec: "True"
-  fullName: Fibula.Mechanics.Operations.ExpireItemOperation.Execute
-  nameWithType: ExpireItemOperation.Execute
-- uid: Fibula.Mechanics.Operations.ExpireItemOperation.Item
-  name: Item
-  href: code/Fibula.Mechanics.Operations.ExpireItemOperation.html#Fibula_Mechanics_Operations_ExpireItemOperation_Item
-  commentId: P:Fibula.Mechanics.Operations.ExpireItemOperation.Item
-  fullName: Fibula.Mechanics.Operations.ExpireItemOperation.Item
-  nameWithType: ExpireItemOperation.Item
-- uid: Fibula.Mechanics.Operations.ExpireItemOperation.Item*
-  name: Item
-  href: code/Fibula.Mechanics.Operations.ExpireItemOperation.html#Fibula_Mechanics_Operations_ExpireItemOperation_Item_
-  commentId: Overload:Fibula.Mechanics.Operations.ExpireItemOperation.Item
-  isSpec: "True"
-  fullName: Fibula.Mechanics.Operations.ExpireItemOperation.Item
-  nameWithType: ExpireItemOperation.Item
 - uid: Fibula.Mechanics.Operations.LogInOperation
   name: LogInOperation
   href: code/Fibula.Mechanics.Operations.LogInOperation.html
@@ -25170,19 +25638,6 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Operations.Operation.AddContentToContainerOrFallback
   nameWithType: Operation.AddContentToContainerOrFallback
-- uid: Fibula.Mechanics.Operations.Operation.AssociatedExhaustion
-  name: AssociatedExhaustion
-  href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_AssociatedExhaustion
-  commentId: P:Fibula.Mechanics.Operations.Operation.AssociatedExhaustion
-  fullName: Fibula.Mechanics.Operations.Operation.AssociatedExhaustion
-  nameWithType: Operation.AssociatedExhaustion
-- uid: Fibula.Mechanics.Operations.Operation.AssociatedExhaustion*
-  name: AssociatedExhaustion
-  href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_AssociatedExhaustion_
-  commentId: Overload:Fibula.Mechanics.Operations.Operation.AssociatedExhaustion
-  isSpec: "True"
-  fullName: Fibula.Mechanics.Operations.Operation.AssociatedExhaustion
-  nameWithType: Operation.AssociatedExhaustion
 - uid: Fibula.Mechanics.Operations.Operation.CanBeCancelled
   name: CanBeCancelled
   href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_CanBeCancelled
@@ -25209,6 +25664,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Operations.Operation.DispatchTextNotification
   nameWithType: Operation.DispatchTextNotification
+- uid: Fibula.Mechanics.Operations.Operation.EventType
+  name: EventType
+  href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_EventType
+  commentId: P:Fibula.Mechanics.Operations.Operation.EventType
+  fullName: Fibula.Mechanics.Operations.Operation.EventType
+  nameWithType: Operation.EventType
+- uid: Fibula.Mechanics.Operations.Operation.EventType*
+  name: EventType
+  href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_EventType_
+  commentId: Overload:Fibula.Mechanics.Operations.Operation.EventType
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Operations.Operation.EventType
+  nameWithType: Operation.EventType
 - uid: Fibula.Mechanics.Operations.Operation.Execute(Fibula.Mechanics.Contracts.Abstractions.IOperationContext)
   name: Execute(IOperationContext)
   href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_Execute_Fibula_Mechanics_Contracts_Abstractions_IOperationContext_
@@ -25228,6 +25696,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Mechanics.Operations.Operation.Execute
   nameWithType: Operation.Execute
+- uid: Fibula.Mechanics.Operations.Operation.ExhaustionInfo
+  name: ExhaustionInfo
+  href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_ExhaustionInfo
+  commentId: P:Fibula.Mechanics.Operations.Operation.ExhaustionInfo
+  fullName: Fibula.Mechanics.Operations.Operation.ExhaustionInfo
+  nameWithType: Operation.ExhaustionInfo
+- uid: Fibula.Mechanics.Operations.Operation.ExhaustionInfo*
+  name: ExhaustionInfo
+  href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_ExhaustionInfo_
+  commentId: Overload:Fibula.Mechanics.Operations.Operation.ExhaustionInfo
+  isSpec: "True"
+  fullName: Fibula.Mechanics.Operations.Operation.ExhaustionInfo
+  nameWithType: Operation.ExhaustionInfo
 - uid: Fibula.Mechanics.Operations.Operation.GetRequestor(Fibula.Creatures.Contracts.Abstractions.ICreatureFinder)
   name: GetRequestor(ICreatureFinder)
   href: code/Fibula.Mechanics.Operations.Operation.html#Fibula_Mechanics_Operations_Operation_GetRequestor_Fibula_Creatures_Contracts_Abstractions_ICreatureFinder_
@@ -30942,6 +31423,25 @@ references:
   commentId: E:Fibula.Scheduling.BaseEvent.Completed
   fullName: Fibula.Scheduling.BaseEvent.Completed
   nameWithType: BaseEvent.Completed
+- uid: Fibula.Scheduling.BaseEvent.Delay(System.TimeSpan)
+  name: Delay(TimeSpan)
+  href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Delay_System_TimeSpan_
+  commentId: M:Fibula.Scheduling.BaseEvent.Delay(System.TimeSpan)
+  fullName: Fibula.Scheduling.BaseEvent.Delay(System.TimeSpan)
+  nameWithType: BaseEvent.Delay(TimeSpan)
+- uid: Fibula.Scheduling.BaseEvent.Delay*
+  name: Delay
+  href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Delay_
+  commentId: Overload:Fibula.Scheduling.BaseEvent.Delay
+  isSpec: "True"
+  fullName: Fibula.Scheduling.BaseEvent.Delay
+  nameWithType: BaseEvent.Delay
+- uid: Fibula.Scheduling.BaseEvent.Delayed
+  name: Delayed
+  href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Delayed
+  commentId: E:Fibula.Scheduling.BaseEvent.Delayed
+  fullName: Fibula.Scheduling.BaseEvent.Delayed
+  nameWithType: BaseEvent.Delayed
 - uid: Fibula.Scheduling.BaseEvent.Equals(Fibula.Scheduling.BaseEvent)
   name: Equals(BaseEvent)
   href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Equals_Fibula_Scheduling_BaseEvent_
@@ -30968,6 +31468,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Scheduling.BaseEvent.EventId
   nameWithType: BaseEvent.EventId
+- uid: Fibula.Scheduling.BaseEvent.EventType
+  name: EventType
+  href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_EventType
+  commentId: P:Fibula.Scheduling.BaseEvent.EventType
+  fullName: Fibula.Scheduling.BaseEvent.EventType
+  nameWithType: BaseEvent.EventType
+- uid: Fibula.Scheduling.BaseEvent.EventType*
+  name: EventType
+  href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_EventType_
+  commentId: Overload:Fibula.Scheduling.BaseEvent.EventType
+  isSpec: "True"
+  fullName: Fibula.Scheduling.BaseEvent.EventType
+  nameWithType: BaseEvent.EventType
 - uid: Fibula.Scheduling.BaseEvent.ExcludeFromTelemetry
   name: ExcludeFromTelemetry
   href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_ExcludeFromTelemetry
@@ -31026,6 +31539,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Scheduling.BaseEvent.HasCancellationHandler
   nameWithType: BaseEvent.HasCancellationHandler
+- uid: Fibula.Scheduling.BaseEvent.HasDelayHandler
+  name: HasDelayHandler
+  href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_HasDelayHandler
+  commentId: P:Fibula.Scheduling.BaseEvent.HasDelayHandler
+  fullName: Fibula.Scheduling.BaseEvent.HasDelayHandler
+  nameWithType: BaseEvent.HasDelayHandler
+- uid: Fibula.Scheduling.BaseEvent.HasDelayHandler*
+  name: HasDelayHandler
+  href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_HasDelayHandler_
+  commentId: Overload:Fibula.Scheduling.BaseEvent.HasDelayHandler
+  isSpec: "True"
+  fullName: Fibula.Scheduling.BaseEvent.HasDelayHandler
+  nameWithType: BaseEvent.HasDelayHandler
 - uid: Fibula.Scheduling.BaseEvent.HasExpeditionHandler
   name: HasExpeditionHandler
   href: code/Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_HasExpeditionHandler
@@ -31128,6 +31654,25 @@ references:
   commentId: E:Fibula.Scheduling.Contracts.Abstractions.IEvent.Completed
   fullName: Fibula.Scheduling.Contracts.Abstractions.IEvent.Completed
   nameWithType: IEvent.Completed
+- uid: Fibula.Scheduling.Contracts.Abstractions.IEvent.Delay(System.TimeSpan)
+  name: Delay(TimeSpan)
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IEvent.html#Fibula_Scheduling_Contracts_Abstractions_IEvent_Delay_System_TimeSpan_
+  commentId: M:Fibula.Scheduling.Contracts.Abstractions.IEvent.Delay(System.TimeSpan)
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IEvent.Delay(System.TimeSpan)
+  nameWithType: IEvent.Delay(TimeSpan)
+- uid: Fibula.Scheduling.Contracts.Abstractions.IEvent.Delay*
+  name: Delay
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IEvent.html#Fibula_Scheduling_Contracts_Abstractions_IEvent_Delay_
+  commentId: Overload:Fibula.Scheduling.Contracts.Abstractions.IEvent.Delay
+  isSpec: "True"
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IEvent.Delay
+  nameWithType: IEvent.Delay
+- uid: Fibula.Scheduling.Contracts.Abstractions.IEvent.Delayed
+  name: Delayed
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IEvent.html#Fibula_Scheduling_Contracts_Abstractions_IEvent_Delayed
+  commentId: E:Fibula.Scheduling.Contracts.Abstractions.IEvent.Delayed
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IEvent.Delayed
+  nameWithType: IEvent.Delayed
 - uid: Fibula.Scheduling.Contracts.Abstractions.IEvent.EventId
   name: EventId
   href: code/Fibula.Scheduling.Contracts.Abstractions.IEvent.html#Fibula_Scheduling_Contracts_Abstractions_IEvent_EventId
@@ -31141,6 +31686,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Scheduling.Contracts.Abstractions.IEvent.EventId
   nameWithType: IEvent.EventId
+- uid: Fibula.Scheduling.Contracts.Abstractions.IEvent.EventType
+  name: EventType
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IEvent.html#Fibula_Scheduling_Contracts_Abstractions_IEvent_EventType
+  commentId: P:Fibula.Scheduling.Contracts.Abstractions.IEvent.EventType
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IEvent.EventType
+  nameWithType: IEvent.EventType
+- uid: Fibula.Scheduling.Contracts.Abstractions.IEvent.EventType*
+  name: EventType
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IEvent.html#Fibula_Scheduling_Contracts_Abstractions_IEvent_EventType_
+  commentId: Overload:Fibula.Scheduling.Contracts.Abstractions.IEvent.EventType
+  isSpec: "True"
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IEvent.EventType
+  nameWithType: IEvent.EventType
 - uid: Fibula.Scheduling.Contracts.Abstractions.IEvent.ExcludeFromTelemetry
   name: ExcludeFromTelemetry
   href: code/Fibula.Scheduling.Contracts.Abstractions.IEvent.html#Fibula_Scheduling_Contracts_Abstractions_IEvent_ExcludeFromTelemetry
@@ -31263,6 +31821,19 @@ references:
   commentId: T:Fibula.Scheduling.Contracts.Abstractions.IScheduler
   fullName: Fibula.Scheduling.Contracts.Abstractions.IScheduler
   nameWithType: IScheduler
+- uid: Fibula.Scheduling.Contracts.Abstractions.IScheduler.CalculateTimeToFire(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  name: CalculateTimeToFire(IEvent)
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IScheduler.html#Fibula_Scheduling_Contracts_Abstractions_IScheduler_CalculateTimeToFire_Fibula_Scheduling_Contracts_Abstractions_IEvent_
+  commentId: M:Fibula.Scheduling.Contracts.Abstractions.IScheduler.CalculateTimeToFire(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IScheduler.CalculateTimeToFire(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  nameWithType: IScheduler.CalculateTimeToFire(IEvent)
+- uid: Fibula.Scheduling.Contracts.Abstractions.IScheduler.CalculateTimeToFire*
+  name: CalculateTimeToFire
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IScheduler.html#Fibula_Scheduling_Contracts_Abstractions_IScheduler_CalculateTimeToFire_
+  commentId: Overload:Fibula.Scheduling.Contracts.Abstractions.IScheduler.CalculateTimeToFire
+  isSpec: "True"
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IScheduler.CalculateTimeToFire
+  nameWithType: IScheduler.CalculateTimeToFire
 - uid: Fibula.Scheduling.Contracts.Abstractions.IScheduler.CancelAllFor(System.UInt32,System.Type)
   name: CancelAllFor(UInt32, Type)
   href: code/Fibula.Scheduling.Contracts.Abstractions.IScheduler.html#Fibula_Scheduling_Contracts_Abstractions_IScheduler_CancelAllFor_System_UInt32_System_Type_
@@ -31334,15 +31905,15 @@ references:
   isSpec: "True"
   fullName: Fibula.Scheduling.Contracts.Abstractions.IScheduler.RunAsync
   nameWithType: IScheduler.RunAsync
-- uid: Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan})
-  name: ScheduleEvent(IEvent, Nullable<TimeSpan>)
-  href: code/Fibula.Scheduling.Contracts.Abstractions.IScheduler.html#Fibula_Scheduling_Contracts_Abstractions_IScheduler_ScheduleEvent_Fibula_Scheduling_Contracts_Abstractions_IEvent_System_Nullable_System_TimeSpan__
-  commentId: M:Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan})
-  name.vb: ScheduleEvent(IEvent, Nullable(Of TimeSpan))
-  fullName: Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable<System.TimeSpan>)
-  fullName.vb: Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable(Of System.TimeSpan))
-  nameWithType: IScheduler.ScheduleEvent(IEvent, Nullable<TimeSpan>)
-  nameWithType.vb: IScheduler.ScheduleEvent(IEvent, Nullable(Of TimeSpan))
+- uid: Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan},System.Boolean)
+  name: ScheduleEvent(IEvent, Nullable<TimeSpan>, Boolean)
+  href: code/Fibula.Scheduling.Contracts.Abstractions.IScheduler.html#Fibula_Scheduling_Contracts_Abstractions_IScheduler_ScheduleEvent_Fibula_Scheduling_Contracts_Abstractions_IEvent_System_Nullable_System_TimeSpan__System_Boolean_
+  commentId: M:Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan},System.Boolean)
+  name.vb: ScheduleEvent(IEvent, Nullable(Of TimeSpan), Boolean)
+  fullName: Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable<System.TimeSpan>, System.Boolean)
+  fullName.vb: Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable(Of System.TimeSpan), System.Boolean)
+  nameWithType: IScheduler.ScheduleEvent(IEvent, Nullable<TimeSpan>, Boolean)
+  nameWithType.vb: IScheduler.ScheduleEvent(IEvent, Nullable(Of TimeSpan), Boolean)
 - uid: Fibula.Scheduling.Contracts.Abstractions.IScheduler.ScheduleEvent*
   name: ScheduleEvent
   href: code/Fibula.Scheduling.Contracts.Abstractions.IScheduler.html#Fibula_Scheduling_Contracts_Abstractions_IScheduler_ScheduleEvent_
@@ -31368,6 +31939,12 @@ references:
   commentId: T:Fibula.Scheduling.Contracts.Delegates.EventCompletedDelegate
   fullName: Fibula.Scheduling.Contracts.Delegates.EventCompletedDelegate
   nameWithType: EventCompletedDelegate
+- uid: Fibula.Scheduling.Contracts.Delegates.EventDelayedDelegate
+  name: EventDelayedDelegate
+  href: code/Fibula.Scheduling.Contracts.Delegates.EventDelayedDelegate.html
+  commentId: T:Fibula.Scheduling.Contracts.Delegates.EventDelayedDelegate
+  fullName: Fibula.Scheduling.Contracts.Delegates.EventDelayedDelegate
+  nameWithType: EventDelayedDelegate
 - uid: Fibula.Scheduling.Contracts.Delegates.EventExpeditedDelegate
   name: EventExpeditedDelegate
   href: code/Fibula.Scheduling.Contracts.Delegates.EventExpeditedDelegate.html
@@ -31540,6 +32117,19 @@ references:
   isSpec: "True"
   fullName: Fibula.Scheduling.Scheduler.Scheduler
   nameWithType: Scheduler.Scheduler
+- uid: Fibula.Scheduling.Scheduler.CalculateTimeToFire(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  name: CalculateTimeToFire(IEvent)
+  href: code/Fibula.Scheduling.Scheduler.html#Fibula_Scheduling_Scheduler_CalculateTimeToFire_Fibula_Scheduling_Contracts_Abstractions_IEvent_
+  commentId: M:Fibula.Scheduling.Scheduler.CalculateTimeToFire(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  fullName: Fibula.Scheduling.Scheduler.CalculateTimeToFire(Fibula.Scheduling.Contracts.Abstractions.IEvent)
+  nameWithType: Scheduler.CalculateTimeToFire(IEvent)
+- uid: Fibula.Scheduling.Scheduler.CalculateTimeToFire*
+  name: CalculateTimeToFire
+  href: code/Fibula.Scheduling.Scheduler.html#Fibula_Scheduling_Scheduler_CalculateTimeToFire_
+  commentId: Overload:Fibula.Scheduling.Scheduler.CalculateTimeToFire
+  isSpec: "True"
+  fullName: Fibula.Scheduling.Scheduler.CalculateTimeToFire
+  nameWithType: Scheduler.CalculateTimeToFire
 - uid: Fibula.Scheduling.Scheduler.CancelAllFor(System.UInt32,System.Type)
   name: CancelAllFor(UInt32, Type)
   href: code/Fibula.Scheduling.Scheduler.html#Fibula_Scheduling_Scheduler_CancelAllFor_System_UInt32_System_Type_
@@ -31624,15 +32214,15 @@ references:
   isSpec: "True"
   fullName: Fibula.Scheduling.Scheduler.RunAsync
   nameWithType: Scheduler.RunAsync
-- uid: Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan})
-  name: ScheduleEvent(IEvent, Nullable<TimeSpan>)
-  href: code/Fibula.Scheduling.Scheduler.html#Fibula_Scheduling_Scheduler_ScheduleEvent_Fibula_Scheduling_Contracts_Abstractions_IEvent_System_Nullable_System_TimeSpan__
-  commentId: M:Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan})
-  name.vb: ScheduleEvent(IEvent, Nullable(Of TimeSpan))
-  fullName: Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable<System.TimeSpan>)
-  fullName.vb: Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable(Of System.TimeSpan))
-  nameWithType: Scheduler.ScheduleEvent(IEvent, Nullable<TimeSpan>)
-  nameWithType.vb: Scheduler.ScheduleEvent(IEvent, Nullable(Of TimeSpan))
+- uid: Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan},System.Boolean)
+  name: ScheduleEvent(IEvent, Nullable<TimeSpan>, Boolean)
+  href: code/Fibula.Scheduling.Scheduler.html#Fibula_Scheduling_Scheduler_ScheduleEvent_Fibula_Scheduling_Contracts_Abstractions_IEvent_System_Nullable_System_TimeSpan__System_Boolean_
+  commentId: M:Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent,System.Nullable{System.TimeSpan},System.Boolean)
+  name.vb: ScheduleEvent(IEvent, Nullable(Of TimeSpan), Boolean)
+  fullName: Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable<System.TimeSpan>, System.Boolean)
+  fullName.vb: Fibula.Scheduling.Scheduler.ScheduleEvent(Fibula.Scheduling.Contracts.Abstractions.IEvent, System.Nullable(Of System.TimeSpan), System.Boolean)
+  nameWithType: Scheduler.ScheduleEvent(IEvent, Nullable<TimeSpan>, Boolean)
+  nameWithType.vb: Scheduler.ScheduleEvent(IEvent, Nullable(Of TimeSpan), Boolean)
 - uid: Fibula.Scheduling.Scheduler.ScheduleEvent*
   name: ScheduleEvent
   href: code/Fibula.Scheduling.Scheduler.html#Fibula_Scheduling_Scheduler_ScheduleEvent_

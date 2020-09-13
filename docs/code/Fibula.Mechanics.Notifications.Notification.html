@@ -120,6 +120,9 @@ Notifications are basically any message that the server sends to the client of a
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Expedited">BaseEvent.Expedited</a>
     </div>
     <div>
+      <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Delayed">BaseEvent.Delayed</a>
+    </div>
+    <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Completed">BaseEvent.Completed</a>
     </div>
     <div>
@@ -138,6 +141,9 @@ Notifications are basically any message that the server sends to the client of a
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_HasExpeditionHandler">BaseEvent.HasExpeditionHandler</a>
     </div>
     <div>
+      <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_HasDelayHandler">BaseEvent.HasDelayHandler</a>
+    </div>
+    <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_ExcludeFromTelemetry">BaseEvent.ExcludeFromTelemetry</a>
     </div>
     <div>
@@ -148,6 +154,9 @@ Notifications are basically any message that the server sends to the client of a
     </div>
     <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Expedite">BaseEvent.Expedite()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Delay_System_TimeSpan_">BaseEvent.Delay(TimeSpan)</a>
     </div>
     <div>
       <a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Complete_System_Boolean_">BaseEvent.Complete(Boolean)</a>
@@ -196,10 +205,10 @@ Notifications are basically any message that the server sends to the client of a
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification__ctor_System_Func_System_Collections_Generic_IEnumerable_Fibula_Creatures_Contracts_Abstractions_IPlayer___.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.%23ctor(System.Func%7BSystem.Collections.Generic.IEnumerable%7BFibula.Creatures.Contracts.Abstractions.IPlayer%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification__ctor_System_Func_System_Collections_Generic_IEnumerable_Fibula_Creatures_Contracts_Abstractions_IPlayer___.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.%23ctor(System.Func%7BSystem.Collections.Generic.IEnumerable%7BFibula.Creatures.Contracts.Abstractions.IPlayer%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L36">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L36">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Notifications_Notification__ctor_" data-uid="Fibula.Mechanics.Notifications.Notification.#ctor*"></a>
   <h4 id="Fibula_Mechanics_Notifications_Notification__ctor_System_Func_System_Collections_Generic_IEnumerable_Fibula_Creatures_Contracts_Abstractions_IPlayer___" data-uid="Fibula.Mechanics.Notifications.Notification.#ctor(System.Func{System.Collections.Generic.IEnumerable{Fibula.Creatures.Contracts.Abstractions.IPlayer}})">Notification(Func&lt;IEnumerable&lt;IPlayer&gt;&gt;)</h4>
@@ -232,10 +241,10 @@ Notifications are basically any message that the server sends to the client of a
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_CanBeCancelled.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.CanBeCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_CanBeCancelled.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.CanBeCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L49">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L54">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Notifications_Notification_CanBeCancelled_" data-uid="Fibula.Mechanics.Notifications.Notification.CanBeCancelled*"></a>
   <h4 id="Fibula_Mechanics_Notifications_Notification_CanBeCancelled" data-uid="Fibula.Mechanics.Notifications.Notification.CanBeCancelled">CanBeCancelled</h4>
@@ -263,14 +272,47 @@ Notifications are basically any message that the server sends to the client of a
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_CanBeCancelled">BaseEvent.CanBeCancelled</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_EventType.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.EventType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L49">View Source</a>
+  </span>
+  <a id="Fibula_Mechanics_Notifications_Notification_EventType_" data-uid="Fibula.Mechanics.Notifications.Notification.EventType*"></a>
+  <h4 id="Fibula_Mechanics_Notifications_Notification_EventType" data-uid="Fibula.Mechanics.Notifications.Notification.EventType">EventType</h4>
+  <div class="markdown level1 summary"><p>Gets a string representing this notification's event type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string EventType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_EventType">BaseEvent.EventType</a></div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L60">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L65">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Notifications_Notification_Execute_" data-uid="Fibula.Mechanics.Notifications.Notification.Execute*"></a>
   <h4 id="Fibula_Mechanics_Notifications_Notification_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_" data-uid="Fibula.Mechanics.Notifications.Notification.Execute(Fibula.Scheduling.Contracts.Abstractions.IEventContext)">Execute(IEventContext)</h4>
@@ -303,10 +345,10 @@ Notifications are basically any message that the server sends to the client of a
   <div><a class="xref" href="Fibula.Scheduling.BaseEvent.html#Fibula_Scheduling_BaseEvent_Execute_Fibula_Scheduling_Contracts_Abstractions_IEventContext_">BaseEvent.Execute(IEventContext)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Prepare_Fibula_Mechanics_Contracts_Abstractions_INotificationContext_Fibula_Creatures_Contracts_Abstractions_IPlayer_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Prepare(Fibula.Mechanics.Contracts.Abstractions.INotificationContext%2CFibula.Creatures.Contracts.Abstractions.IPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Prepare_Fibula_Mechanics_Contracts_Abstractions_INotificationContext_Fibula_Creatures_Contracts_Abstractions_IPlayer_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Prepare(Fibula.Mechanics.Contracts.Abstractions.INotificationContext%2CFibula.Creatures.Contracts.Abstractions.IPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L124">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L129">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Notifications_Notification_Prepare_" data-uid="Fibula.Mechanics.Notifications.Notification.Prepare*"></a>
   <h4 id="Fibula_Mechanics_Notifications_Notification_Prepare_Fibula_Mechanics_Contracts_Abstractions_INotificationContext_Fibula_Creatures_Contracts_Abstractions_IPlayer_" data-uid="Fibula.Mechanics.Notifications.Notification.Prepare(Fibula.Mechanics.Contracts.Abstractions.INotificationContext,Fibula.Creatures.Contracts.Abstractions.IPlayer)">Prepare(INotificationContext, IPlayer)</h4>
@@ -359,10 +401,10 @@ Notifications are basically any message that the server sends to the client of a
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Send_Fibula_Mechanics_Contracts_Abstractions_INotificationContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Send(Fibula.Mechanics.Contracts.Abstractions.INotificationContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Send_Fibula_Mechanics_Contracts_Abstractions_INotificationContext_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Send(Fibula.Mechanics.Contracts.Abstractions.INotificationContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L76">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L81">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Notifications_Notification_Send_" data-uid="Fibula.Mechanics.Notifications.Notification.Send*"></a>
   <h4 id="Fibula_Mechanics_Notifications_Notification_Send_Fibula_Mechanics_Contracts_Abstractions_INotificationContext_" data-uid="Fibula.Mechanics.Notifications.Notification.Send(Fibula.Mechanics.Contracts.Abstractions.INotificationContext)">Send(INotificationContext)</h4>
@@ -395,10 +437,10 @@ Notifications are basically any message that the server sends to the client of a
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Sent.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Sent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification_Sent.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification.Sent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L44">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L44">View Source</a>
   </span>
   <h4 id="Fibula_Mechanics_Notifications_Notification_Sent" data-uid="Fibula.Mechanics.Notifications.Notification.Sent">Sent</h4>
   <div class="markdown level1 summary"><p>Event to call when the notification is sent.</p>
@@ -451,10 +493,10 @@ Notifications are basically any message that the server sends to the client of a
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Notifications_Notification.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Notifications.Notification%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L30" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics/Notifications/Notification.cs/#L30" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

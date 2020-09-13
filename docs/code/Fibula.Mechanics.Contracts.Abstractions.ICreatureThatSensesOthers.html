@@ -164,9 +164,6 @@
       <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_TrackedEvents">IThing.TrackedEvents</a>
     </div>
     <div>
-      <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_Conditions">IThing.Conditions</a>
-    </div>
-    <div>
       <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_DescribeForLogger">IThing.DescribeForLogger()</a>
     </div>
     <div>
@@ -180,6 +177,9 @@
     </div>
     <div>
       <span class="xref">System.IEquatable&lt;Fibula.Common.Contracts.Abstractions.IThing&gt;.Equals(Fibula.Common.Contracts.Abstractions.IThing)</span>
+    </div>
+    <div>
+      <a class="xref" href="Fibula.Common.Contracts.Abstractions.ICloneableThing-1.html#Fibula_Common_Contracts_Abstractions_ICloneableThing_1_Clone">ICloneableThing&lt;IThing&gt;.Clone()</a>
     </div>
     <div>
       <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThingContainer.html#Fibula_Common_Contracts_Abstractions_IThingContainer_FindThingAtIndex_System_Byte_">IThingContainer.FindThingAtIndex(Byte)</a>
@@ -207,16 +207,16 @@
   <h6><strong>Assembly</strong>: Fibula.Mechanics.Contracts.dll</h6>
   <h5 id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ICreatureThatSensesOthers : ICreature, IThing, IContainedThing, IEquatable&lt;IThing&gt;, IThingContainer, ILocatable, IEquatable&lt;ICreature&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ICreatureThatSensesOthers : ICreature, IThing, IContainedThing, IEquatable&lt;IThing&gt;, ICloneableThing&lt;IThing&gt;, IThingContainer, ILocatable, IEquatable&lt;ICreature&gt;</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_TrackedCreatures.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.TrackedCreatures%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_TrackedCreatures.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.TrackedCreatures%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L41">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L41">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_TrackedCreatures_" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.TrackedCreatures*"></a>
   <h4 id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_TrackedCreatures" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.TrackedCreatures">TrackedCreatures</h4>
@@ -246,10 +246,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StartSensingCreature_Fibula_Creatures_Contracts_Abstractions_ICreature_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StartSensingCreature(Fibula.Creatures.Contracts.Abstractions.ICreature)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StartSensingCreature_Fibula_Creatures_Contracts_Abstractions_ICreature_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StartSensingCreature(Fibula.Creatures.Contracts.Abstractions.ICreature)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L47">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L47">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StartSensingCreature_" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StartSensingCreature*"></a>
   <h4 id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StartSensingCreature_Fibula_Creatures_Contracts_Abstractions_ICreature_" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StartSensingCreature(Fibula.Creatures.Contracts.Abstractions.ICreature)">StartSensingCreature(ICreature)</h4>
@@ -280,10 +280,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StopSensingCreature_Fibula_Creatures_Contracts_Abstractions_ICreature_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StopSensingCreature(Fibula.Creatures.Contracts.Abstractions.ICreature)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StopSensingCreature_Fibula_Creatures_Contracts_Abstractions_ICreature_.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StopSensingCreature(Fibula.Creatures.Contracts.Abstractions.ICreature)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L53">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L53">View Source</a>
   </span>
   <a id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StopSensingCreature_" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StopSensingCreature*"></a>
   <h4 id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_StopSensingCreature_Fibula_Creatures_Contracts_Abstractions_ICreature_" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.StopSensingCreature(Fibula.Creatures.Contracts.Abstractions.ICreature)">StopSensingCreature(ICreature)</h4>
@@ -316,10 +316,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureLost.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureLost.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L36">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L36">View Source</a>
   </span>
   <h4 id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureLost" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureLost">CreatureLost</h4>
   <div class="markdown level1 summary"><p>Event called when this creature loses track of a sensed creature.</p>
@@ -346,10 +346,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureSeen.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureSeen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureSeen.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureSeen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L31">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L31">View Source</a>
   </span>
   <h4 id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureSeen" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureSeen">CreatureSeen</h4>
   <div class="markdown level1 summary"><p>Event called when this creature sees another.</p>
@@ -376,10 +376,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureSensed.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureSensed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureSensed.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureSensed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L26">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L26">View Source</a>
   </span>
   <h4 id="Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers_CreatureSensed" data-uid="Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers.CreatureSensed">CreatureSensed</h4>
   <div class="markdown level1 summary"><p>Event called when this creature senses another.</p>
@@ -406,15 +406,6 @@
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_YieldSingleItem__1___0_">ObjectExtensions.YieldSingleItem&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_GetPropertyValue_System_Object_System_String_">ObjectExtensions.GetPropertyValue(Object, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="Fibula.Common.Utilities.Validate.html#Fibula_Common_Utilities_Validate_ThrowIfNull_System_Object_System_String_">Validate.ThrowIfNull(Object, String)</a>
-  </div>
-  <div>
       <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ContainerExtensions.html#Fibula_Mechanics_Contracts_Extensions_ContainerExtensions_GetParentContainerHierarchy_Fibula_Common_Contracts_Abstractions_IContainedThing_System_Boolean_">ContainerExtensions.GetParentContainerHierarchy(IContainedThing, Boolean)</a>
   </div>
   <div>
@@ -436,10 +427,22 @@
       <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.CreatureExtensions.html#Fibula_Mechanics_Contracts_Extensions_CreatureExtensions_RandomAdjacentLocation_Fibula_Creatures_Contracts_Abstractions_ICreature_System_Boolean_System_Random_">CreatureExtensions.RandomAdjacentLocation(ICreature, Boolean, Random)</a>
   </div>
   <div>
-      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingCooldownTime_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ConditionType_System_DateTimeOffset_">ThingExtensions.RemainingCooldownTime(IThing, ConditionType, DateTimeOffset)</a>
+      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingExhaustionTime_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ExhaustionType_System_DateTimeOffset_">ThingExtensions.RemainingExhaustionTime(IThing, ExhaustionType, DateTimeOffset)</a>
   </div>
   <div>
-      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_AddOrExtendCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Abstractions_ICondition_">ThingExtensions.AddOrExtendCondition(IThing, ICondition)</a>
+      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_HasCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ConditionType_">ThingExtensions.HasCondition(IThing, ConditionType)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_IsExhausted_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ExhaustionType_">ThingExtensions.IsExhausted(IThing, ExhaustionType)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_YieldSingleItem__1___0_">ObjectExtensions.YieldSingleItem&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_GetPropertyValue_System_Object_System_String_">ObjectExtensions.GetPropertyValue(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Common.Utilities.Validate.html#Fibula_Common_Utilities_Validate_ThrowIfNull_System_Object_System_String_">Validate.ThrowIfNull(Object, String)</a>
   </div>
 </article>
           </div>
@@ -449,10 +452,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Mechanics_Contracts_Abstractions_ICreatureThatSensesOthers.md&amp;value=---%0Auid%3A%20Fibula.Mechanics.Contracts.Abstractions.ICreatureThatSensesOthers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L21" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Mechanics.Contracts/Abstractions/ICreatureThatSensesOthers.cs/#L21" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

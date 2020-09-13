@@ -164,9 +164,6 @@
       <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_TrackedEvents">IThing.TrackedEvents</a>
     </div>
     <div>
-      <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_Conditions">IThing.Conditions</a>
-    </div>
-    <div>
       <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThing.html#Fibula_Common_Contracts_Abstractions_IThing_DescribeForLogger">IThing.DescribeForLogger()</a>
     </div>
     <div>
@@ -180,6 +177,9 @@
     </div>
     <div>
       <span class="xref">System.IEquatable&lt;Fibula.Common.Contracts.Abstractions.IThing&gt;.Equals(Fibula.Common.Contracts.Abstractions.IThing)</span>
+    </div>
+    <div>
+      <a class="xref" href="Fibula.Common.Contracts.Abstractions.ICloneableThing-1.html#Fibula_Common_Contracts_Abstractions_ICloneableThing_1_Clone">ICloneableThing&lt;IThing&gt;.Clone()</a>
     </div>
     <div>
       <a class="xref" href="Fibula.Common.Contracts.Abstractions.IThingContainer.html#Fibula_Common_Contracts_Abstractions_IThingContainer_FindThingAtIndex_System_Byte_">IThingContainer.FindThingAtIndex(Byte)</a>
@@ -207,16 +207,16 @@
   <h6><strong>Assembly</strong>: Fibula.Creatures.Contracts.dll</h6>
   <h5 id="Fibula_Creatures_Contracts_Abstractions_IPlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IPlayer : ICreature, IThing, IContainedThing, IEquatable&lt;IThing&gt;, IThingContainer, ILocatable, IEquatable&lt;ICreature&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IPlayer : ICreature, IThing, IContainedThing, IEquatable&lt;IThing&gt;, ICloneableThing&lt;IThing&gt;, IThingContainer, ILocatable, IEquatable&lt;ICreature&gt;</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_CharacterId.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.CharacterId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_CharacterId.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.CharacterId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L29">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L29">View Source</a>
   </span>
   <a id="Fibula_Creatures_Contracts_Abstractions_IPlayer_CharacterId_" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.CharacterId*"></a>
   <h4 id="Fibula_Creatures_Contracts_Abstractions_IPlayer_CharacterId" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.CharacterId">CharacterId</h4>
@@ -244,10 +244,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_Client.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.Client%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_Client.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.Client%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L24">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L24">View Source</a>
   </span>
   <a id="Fibula_Creatures_Contracts_Abstractions_IPlayer_Client_" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.Client*"></a>
   <h4 id="Fibula_Creatures_Contracts_Abstractions_IPlayer_Client" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.Client">Client</h4>
@@ -275,41 +275,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_IsAllowedToLogOut.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_PermissionsLevel.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.PermissionsLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L45">View Source</a>
-  </span>
-  <a id="Fibula_Creatures_Contracts_Abstractions_IPlayer_IsAllowedToLogOut_" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut*"></a>
-  <h4 id="Fibula_Creatures_Contracts_Abstractions_IPlayer_IsAllowedToLogOut" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.IsAllowedToLogOut">IsAllowedToLogOut</h4>
-  <div class="markdown level1 summary"><p>Gets a value indicating whether this player is allowed to logout.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IsAllowedToLogOut { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_PermissionsLevel.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.PermissionsLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L34">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L34">View Source</a>
   </span>
   <a id="Fibula_Creatures_Contracts_Abstractions_IPlayer_PermissionsLevel_" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.PermissionsLevel*"></a>
   <h4 id="Fibula_Creatures_Contracts_Abstractions_IPlayer_PermissionsLevel" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.PermissionsLevel">PermissionsLevel</h4>
@@ -337,10 +306,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_SoulPoints.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.SoulPoints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer_SoulPoints.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer.SoulPoints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L40">View Source</a>
+    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L40">View Source</a>
   </span>
   <a id="Fibula_Creatures_Contracts_Abstractions_IPlayer_SoulPoints_" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.SoulPoints*"></a>
   <h4 id="Fibula_Creatures_Contracts_Abstractions_IPlayer_SoulPoints" data-uid="Fibula.Creatures.Contracts.Abstractions.IPlayer.SoulPoints">SoulPoints</h4>
@@ -368,15 +337,6 @@
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_YieldSingleItem__1___0_">ObjectExtensions.YieldSingleItem&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_GetPropertyValue_System_Object_System_String_">ObjectExtensions.GetPropertyValue(Object, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="Fibula.Common.Utilities.Validate.html#Fibula_Common_Utilities_Validate_ThrowIfNull_System_Object_System_String_">Validate.ThrowIfNull(Object, String)</a>
-  </div>
-  <div>
       <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ContainerExtensions.html#Fibula_Mechanics_Contracts_Extensions_ContainerExtensions_GetParentContainerHierarchy_Fibula_Common_Contracts_Abstractions_IContainedThing_System_Boolean_">ContainerExtensions.GetParentContainerHierarchy(IContainedThing, Boolean)</a>
   </div>
   <div>
@@ -398,10 +358,22 @@
       <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.CreatureExtensions.html#Fibula_Mechanics_Contracts_Extensions_CreatureExtensions_RandomAdjacentLocation_Fibula_Creatures_Contracts_Abstractions_ICreature_System_Boolean_System_Random_">CreatureExtensions.RandomAdjacentLocation(ICreature, Boolean, Random)</a>
   </div>
   <div>
-      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingCooldownTime_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ConditionType_System_DateTimeOffset_">ThingExtensions.RemainingCooldownTime(IThing, ConditionType, DateTimeOffset)</a>
+      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_RemainingExhaustionTime_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ExhaustionType_System_DateTimeOffset_">ThingExtensions.RemainingExhaustionTime(IThing, ExhaustionType, DateTimeOffset)</a>
   </div>
   <div>
-      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_AddOrExtendCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Abstractions_ICondition_">ThingExtensions.AddOrExtendCondition(IThing, ICondition)</a>
+      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_HasCondition_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ConditionType_">ThingExtensions.HasCondition(IThing, ConditionType)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Mechanics.Contracts.Extensions.ThingExtensions.html#Fibula_Mechanics_Contracts_Extensions_ThingExtensions_IsExhausted_Fibula_Common_Contracts_Abstractions_IThing_Fibula_Common_Contracts_Enumerations_ExhaustionType_">ThingExtensions.IsExhausted(IThing, ExhaustionType)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_YieldSingleItem__1___0_">ObjectExtensions.YieldSingleItem&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Common.Utilities.ObjectExtensions.html#Fibula_Common_Utilities_ObjectExtensions_GetPropertyValue_System_Object_System_String_">ObjectExtensions.GetPropertyValue(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fibula.Common.Utilities.Validate.html#Fibula_Common_Utilities_Validate_ThrowIfNull_System_Object_System_String_">Validate.ThrowIfNull(Object, String)</a>
   </div>
 </article>
           </div>
@@ -411,10 +383,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/new/master/apiSpec/new?filename=Fibula_Creatures_Contracts_Abstractions_IPlayer.md&amp;value=---%0Auid%3A%20Fibula.Creatures.Contracts.Abstractions.IPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/jlnunez89/fibula-mmo/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L19" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Fibula-MMO/fibula-server/blob/master/src/Fibula.Creatures.Contracts/Abstractions/IPlayer.cs/#L19" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
