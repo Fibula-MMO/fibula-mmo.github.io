@@ -1,2 +1,3 @@
-# Fibula-MMO.github.io
-Contains the GitHub pages content.
+# What's this?
+
+This repo's only mission in life is to host the GitHub pages content for the org.
